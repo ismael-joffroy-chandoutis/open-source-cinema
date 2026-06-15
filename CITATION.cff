@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use or cite this work, please credit it as below."
+title: "open-source-cinema"
+abstract: "RAW video filmmaking with hacked cameras and open hardware. Magic Lantern 5D Mark III, AXIOM, agent-driven post-production."
+type: dataset
+authors:
+  - given-names: "Ismaël"
+    family-names: "Joffroy Chandoutis"
+    website: "https://github.com/12georgiadis"
+repository-code: "https://github.com/12georgiadis/open-source-cinema"
+url: "https://github.com/12georgiadis/open-source-cinema"
+license: CC-BY-NC-ND-4.0
