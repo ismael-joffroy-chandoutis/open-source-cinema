@@ -1097,3 +1097,5 @@ The tools referenced are open source under their respective licenses:
 - [Magic Lantern](https://www.magiclantern.fm/) -- GPL v2
 - [MLV App](https://github.com/ilia3101/MLV-App) -- GPL v3
 - [AXIOM / apertus](https://github.com/apertus-open-source-cinema) -- GPL v3 (software), CERN OHL (hardware)
+
+By [Ismaël Joffroy Chandoutis](https://ismaeljoffroychandoutis.com).
