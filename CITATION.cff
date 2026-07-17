@@ -6,7 +6,7 @@ type: dataset
 authors:
   - given-names: "Ismaël"
     family-names: "Joffroy Chandoutis"
-    website: "https://github.com/12georgiadis"
-repository-code: "https://github.com/12georgiadis/open-source-cinema"
-url: "https://github.com/12georgiadis/open-source-cinema"
+    website: "https://github.com/ismael-joffroy-chandoutis"
+repository-code: "https://github.com/ismael-joffroy-chandoutis/open-source-cinema"
+url: "https://github.com/ismael-joffroy-chandoutis/open-source-cinema"
 license: CC-BY-NC-ND-4.0

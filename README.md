@@ -1,10 +1,12 @@
+**English** · [Français](README.fr.md)
+
 <div align="center">
 
 # Open Source Cinema
 
 **RAW video filmmaking with hacked cameras and open hardware.**
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 ![Magic Lantern](https://img.shields.io/badge/Magic_Lantern-RAW-cc0000?style=flat-square)
 ![Canon 5D III](https://img.shields.io/badge/Canon-5D_Mark_III-black?style=flat-square&logo=canon&logoColor=white)
 ![DaVinci Resolve](https://img.shields.io/badge/DaVinci-Resolve-3388FF?style=flat-square&logo=davinciresolve&logoColor=white)
@@ -887,7 +889,7 @@ Beyond using open source tools, I've contributed to several projects in the open
 
 ### AI & Cinema Workflows
 
-- **[ComfyUI Cinema Pipeline](https://github.com/12georgiadis/comfyui-cinema-pipeline)**: MCP server bridging ComfyUI generative workflows with cinema post-production. Integrates Flux, Wan, and Stable Diffusion into NLE-compatible pipelines with proper color management.
+- **[ComfyUI Cinema Pipeline](https://github.com/ismael-joffroy-chandoutis/comfyui-cinema-pipeline)**: MCP server bridging ComfyUI generative workflows with cinema post-production. Integrates Flux, Wan, and Stable Diffusion into NLE-compatible pipelines with proper color management.
 
 ---
 
@@ -950,8 +952,8 @@ Beyond using open source tools, I've contributed to several projects in the open
 |---|---|
 | **[ML RAW Workflows: DaVinci Resolve & Final Cut Pro](ML-RAW-Workflows-Resolve-FCP.md)** | Complete pro workflow guide: CinemaDNG in Resolve, CST node trees, multi-camera matching, DCP/IMF delivery, FCP roundtrip, open source IMF tools |
 | **[Agent-Driven Editing: Where Cinema Meets Code](Agent-Driven-Editing-2026.md)** | State of the art (Feb 2026): AI agents controlling NLEs, MCP servers for Resolve/FCP, OpenTimelineIO, CLI vs GUI, multimodal editing loop, assistant editor automation, AI tools for FCP keywords/smart collections/logging, complete agent pipeline for feature film post-production |
-| **[ComfyUI Cinema Pipeline](https://github.com/12georgiadis/comfyui-cinema-pipeline)** | MCP server bridging ComfyUI with cinema post-production: generative workflows (Flux, Wan, SD), NLE integration, hardware specs, color management |
-| **[FCP Workflow](https://github.com/12georgiadis/fcp-workflow)** | Final Cut Pro stack: plugins (CommandPost, BRAW Toolbox, ScriptStar), FCP 12 semantic search, FCPXML MCP server, roundtrip workflows, AV1/FFV1 archiving |
+| **[ComfyUI Cinema Pipeline](https://github.com/ismael-joffroy-chandoutis/comfyui-cinema-pipeline)** | MCP server bridging ComfyUI with cinema post-production: generative workflows (Flux, Wan, SD), NLE integration, hardware specs, color management |
+| **[FCP Workflow](https://github.com/ismael-joffroy-chandoutis/fcp-workflow)** | Final Cut Pro stack: plugins (CommandPost, BRAW Toolbox, ScriptStar), FCP 12 semantic search, FCPXML MCP server, roundtrip workflows, AV1/FFV1 archiving |
 
 ---
 
@@ -1091,7 +1093,7 @@ ffmpeg -i archive.mkv -f null - 2>&1 | grep -E "error|warning"
 
 ## License
 
-This documentation is released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+This documentation is released under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 The tools referenced are open source under their respective licenses:
 - [Magic Lantern](https://www.magiclantern.fm/) -- GPL v2

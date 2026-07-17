@@ -96,4 +96,4 @@ Everything else follows from that.
 
 ---
 
-*Part of the [open-source-cinema](https://github.com/12georgiadis/open-source-cinema) research project.*
+*Part of the [open-source-cinema](https://github.com/ismael-joffroy-chandoutis/open-source-cinema) research project.*
