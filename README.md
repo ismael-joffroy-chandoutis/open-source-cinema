@@ -151,7 +151,7 @@ February 2026. I work across macOS, Windows, and Linux. I built Hackintoshes for
 
 **AI Models**: Wan 2.1/2.2, Flux, SDXL, Hunyuan Video, LTX Video, SAM 3, Depth Anything, RIFE, Real-ESRGAN
 
-**LLMs**: Claude (primary, via [Claude Code](https://claude.com/claude-code) CLI), GPT, Gemini, Grok, Mistral, DeepSeek
+**LLMs**: GPT, Grok, Mistral, DeepSeek
 
 **3D & Game Engines**: Blender, Unity, Unreal Engine, Godot
 

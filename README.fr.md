@@ -152,7 +152,7 @@ Février 2026. Je travaille sur macOS, Windows et Linux. J'ai construit des Hack
 
 **Modèles IA** : Wan 2.1/2.2, Flux, SDXL, Hunyuan Video, LTX Video, SAM 3, Depth Anything, RIFE, Real-ESRGAN
 
-**LLM** : Claude (principal, via [Claude Code](https://claude.com/claude-code) CLI), GPT, Gemini, Grok, Mistral, DeepSeek
+**LLM** : GPT, Grok, Mistral, DeepSeek
 
 **3D & moteurs de jeu** : Blender, Unity, Unreal Engine, Godot
 
