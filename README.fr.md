@@ -1,3 +1,5 @@
+<img src="banner.svg" alt="Open Source Cinema" width="100%">
+
 [English](README.md) · **Français**
 
 <div align="center">
