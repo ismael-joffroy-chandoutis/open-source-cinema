@@ -21,6 +21,8 @@ I'm a filmmaker. I shoot auteur cinema with tools that weren't designed for it, 
 
 This repo documents my technical approach to independent cinema: open source tools, camera hacks, RAW workflows, multi-camera color pipelines, and the emerging role of AI agents in post-production.
 
+<img src="monde.jpg" alt="open-source-cinema" width="100%">
+
 ---
 
 ## Table of Contents

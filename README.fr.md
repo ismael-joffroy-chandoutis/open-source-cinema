@@ -21,6 +21,8 @@ Je suis cinéaste. Je tourne un cinéma d'auteur avec des outils qui n'étaient 
 
 Ce dépôt documente mon approche technique du cinéma indépendant : outils open source, hacks de caméras, workflows RAW, pipelines couleur multi-caméras, et le rôle émergent des agents IA en postproduction.
 
+<img src="monde.jpg" alt="open-source-cinema" width="100%">
+
 ---
 
 ## Table des matières
