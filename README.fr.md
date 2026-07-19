@@ -957,8 +957,11 @@ Au-delà de l'usage d'outils open source, j'ai contribué à plusieurs projets d
 |---|---|
 | **[ML RAW Workflows: DaVinci Resolve & Final Cut Pro](ML-RAW-Workflows-Resolve-FCP.md)** | Guide de workflow pro complet : CinemaDNG dans Resolve, arbres de nœuds CST, matching multi-caméras, livraison DCP/IMF, roundtrip FCP, outils IMF open source |
 | **[Agent-Driven Editing: Where Cinema Meets Code](Agent-Driven-Editing-2026.md)** | État de l'art (février 2026) : agents IA pilotant des NLE, serveurs MCP pour Resolve/FCP, OpenTimelineIO, CLI vs GUI, boucle de montage multimodale, automatisation de l'assistant monteur, outils IA pour les mots-clés/collections intelligentes/logging FCP, pipeline agentique complet pour la postproduction de longs métrages |
+| **[Generative Pipeline: March 2026](Generative-Pipeline-March-2026.md)** | Prolonge le document Agent-Driven Editing avec les découvertes de mars 2026 : choix du NLE, analyse sémantique des rushes, pipeline génératif vidéo/audio, world models, et rétro-ingénierie de Martini vers un stack open source |
+| **[The Film Comes First](Strategy-Film-First.md)** | Stratégie pour un cinéma d'auteur avec l'IA (mars 2026) : pourquoi le film doit passer avant le pipeline, le plan en trois phases, et des outils au service du film plutôt que l'inverse |
 | **[ComfyUI Cinema Pipeline](https://github.com/ismael-joffroy-chandoutis/comfyui-cinema-pipeline)** | Serveur MCP reliant ComfyUI à la postproduction cinéma : workflows génératifs (Flux, Wan, SD), intégration NLE, spécifications matérielles, gestion colorimétrique |
-| **[FCP Workflow](https://github.com/ismael-joffroy-chandoutis/fcp-workflow)** | Stack Final Cut Pro : plugins (CommandPost, BRAW Toolbox, ScriptStar), recherche sémantique FCP 12, serveur MCP FCPXML, workflows de roundtrip, archivage AV1/FFV1 |
+| **[Cinema AI Toolkit](https://github.com/ismael-joffroy-chandoutis/cinema-ai-toolkit)** | Boîte à outils IA du cinéaste documentaire : réparation de la voix, analyse VHS/Hi8/miniDV par un LLM visuel vers des marqueurs FCP, workflow d'auteur Final Cut Pro avec scripting agentique, OCR et analyse graphologique de documents manuscrits. Héberge désormais le workflow FCP ci-dessous |
+| **[FCP Workflow](https://github.com/ismael-joffroy-chandoutis/fcp-workflow)** | Stack Final Cut Pro : plugins (CommandPost, BRAW Toolbox, ScriptStar), recherche sémantique FCP 12, serveur MCP FCPXML, workflows de roundtrip, archivage AV1/FFV1. Archivé, désormais maintenu au sein de cinema-ai-toolkit |
 
 ---
 
@@ -1098,7 +1101,7 @@ ffmpeg -i archive.mkv -f null - 2>&1 | grep -E "error|warning"
 
 ## Licence
 
-Cette documentation est publiée sous [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+Cette documentation est publiée sous [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Termes complets dans [LICENSE.md](LICENSE.md). Pour citer ce dépôt, voir [CITATION.cff](CITATION.cff).
 
 Les outils référencés sont open source sous leurs licences respectives :
 - [Magic Lantern](https://www.magiclantern.fm/) -- GPL v2

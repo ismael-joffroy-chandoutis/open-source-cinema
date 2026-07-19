@@ -66,6 +66,7 @@ This repo documents my technical approach to independent cinema: open source too
 - [Open Source Contributions](#open-source-contributions)
 - [Resources & Links](#resources--links)
 - [Forum Activity](#forum-activity)
+- [Digital Archiving: AV1, FFV1 and Open Formats](#digital-archiving-av1-ffv1-and-open-formats)
 
 ---
 
@@ -956,8 +957,11 @@ Beyond using open source tools, I've contributed to several projects in the open
 |---|---|
 | **[ML RAW Workflows: DaVinci Resolve & Final Cut Pro](ML-RAW-Workflows-Resolve-FCP.md)** | Complete pro workflow guide: CinemaDNG in Resolve, CST node trees, multi-camera matching, DCP/IMF delivery, FCP roundtrip, open source IMF tools |
 | **[Agent-Driven Editing: Where Cinema Meets Code](Agent-Driven-Editing-2026.md)** | State of the art (Feb 2026): AI agents controlling NLEs, MCP servers for Resolve/FCP, OpenTimelineIO, CLI vs GUI, multimodal editing loop, assistant editor automation, AI tools for FCP keywords/smart collections/logging, complete agent pipeline for feature film post-production |
+| **[Generative Pipeline: March 2026](Generative-Pipeline-March-2026.md)** | Extends the Agent-Driven Editing doc with March 2026 findings: NLE selection, semantic footage analysis, generative video/audio pipeline, world models, and reverse-engineering Martini into an open source stack |
+| **[The Film Comes First](Strategy-Film-First.md)** | Strategy for auteur filmmaking with AI (March 2026): why the film has to come before the pipeline, the three-phase plan, and tools kept in service of the film rather than the reverse |
 | **[ComfyUI Cinema Pipeline](https://github.com/ismael-joffroy-chandoutis/comfyui-cinema-pipeline)** | MCP server bridging ComfyUI with cinema post-production: generative workflows (Flux, Wan, SD), NLE integration, hardware specs, color management |
-| **[FCP Workflow](https://github.com/ismael-joffroy-chandoutis/fcp-workflow)** | Final Cut Pro stack: plugins (CommandPost, BRAW Toolbox, ScriptStar), FCP 12 semantic search, FCPXML MCP server, roundtrip workflows, AV1/FFV1 archiving |
+| **[Cinema AI Toolkit](https://github.com/ismael-joffroy-chandoutis/cinema-ai-toolkit)** | Documentary filmmaker's AI toolkit: voice repair, VHS/Hi8/miniDV analysis with a vision LLM into FCP markers, Final Cut Pro auteur workflow with agentic scripting, OCR and graphological analysis for handwritten documents. Now houses the FCP workflow below |
+| **[FCP Workflow](https://github.com/ismael-joffroy-chandoutis/fcp-workflow)** | Final Cut Pro stack: plugins (CommandPost, BRAW Toolbox, ScriptStar), FCP 12 semantic search, FCPXML MCP server, roundtrip workflows, AV1/FFV1 archiving. Archived, now maintained inside cinema-ai-toolkit |
 
 ---
 
@@ -1097,7 +1101,7 @@ ffmpeg -i archive.mkv -f null - 2>&1 | grep -E "error|warning"
 
 ## License
 
-This documentation is released under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+This documentation is released under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Full terms in [LICENSE.md](LICENSE.md). To cite this repository, see [CITATION.cff](CITATION.cff).
 
 The tools referenced are open source under their respective licenses:
 - [Magic Lantern](https://www.magiclantern.fm/) -- GPL v2
