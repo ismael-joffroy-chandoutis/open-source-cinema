@@ -320,15 +320,15 @@ Traitement : **Switch** (anciennement cr2hdr.app) sur macOS, ou le traitement Du
 
 ### Hack d'overclock de carte SD
 
-Le Canon 5D Mark III a à la fois un slot CF et un slot SD. Canon fait tourner le contrôleur SD à ~24 MHz, de façon conservatrice. Le module `sd_uhs` de Magic Lantern l'overclock pour débloquer le plein potentiel UHS-I.
+Le Canon 5D Mark III a à la fois un slot CF et un slot SD. Canon fait tourner le contrôleur SD à ~24 MHz, de façon conservatrice. Le module `sd_uhs` de Magic Lantern l'overclocke pour débloquer le plein potentiel UHS-I.
 
 | Vitesse d'horloge | Vitesse d'écriture | Risque | Notes |
 |---|---|---|---|
 | **24 MHz** (défaut Canon) | ~20 Mo/s | Aucun | Réglage d'usine |
 | **96 MHz** | ~40-45 Mo/s | Faible | Base UHS-I de Canon sur certains modèles |
 | **160 MHz** | ~65-70 Mo/s | Faible-moyen | Overclock conservateur |
-| **192 MHz** | ~75-85 Mo/s | Moyen | **Maximum recommandé** (dans le spec SDR104) |
-| **240 MHz** | ~90-100 Mo/s | Plus élevé | Dépasse le spec UHS-I. Expérimental. |
+| **192 MHz** | ~75-85 Mo/s | Moyen | **Maximum recommandé** (dans la spec SDR104) |
+| **240 MHz** | ~90-100 Mo/s | Plus élevé | Dépasse la spec UHS-I. Expérimental. |
 
 **Pourquoi c'est important** : avec la CF et la SD overclockée écrivant simultanément (**card spanning**), vous obtenez jusqu'à ~145 Mo/s de bande passante totale. C'est ce qui permet l'enregistrement continu en 3,5K sans perte et les modes en résolution supérieure.
 
@@ -340,7 +340,7 @@ Le Canon 5D Mark III a à la fois un slot CF et un slot SD. Canon fait tourner l
 
 **À éviter** : Kingston Canvas Go! Plus, Samsung EVO Plus 2024, Samsung PRO Ultimate (échec aux tests).
 
-**Réduction du risque** : jusqu'à 192 MHz, c'est techniquement dans les specs UHS-I SDR104. Le contrôleur de la caméra est overclocké, mais la carte fonctionne dans ses propres specs. À 240 MHz, les deux dépassent le spec. Règle de base : **autant que nécessaire, aussi peu que possible.**
+**Réduction du risque** : jusqu'à 192 MHz, c'est techniquement dans les specs UHS-I SDR104. Le contrôleur de la caméra est overclocké, mais la carte fonctionne dans ses propres specs. À 240 MHz, les deux dépassent la spec. Règle de base : **autant que nécessaire, aussi peu que possible.**
 
 Formater les cartes en **ExFAT** (à activer dans le menu ML) pour éviter le découpage des fichiers à 4 Go.
 
@@ -579,7 +579,7 @@ J'utilise Final Cut Pro pour le montage et le finishing, avec DaVinci Resolve po
 2. File > Export XML (choisir la **version XML 1.9**. Resolve supporte 1.3 à 1.9)
 3. Exporter en `.fcpxml` (pas `.fcpxmld`)
 4. Dans Resolve : File > Import > Timeline (Maj+Cmd+I)
-5. Resolve relink automatiquement les médias. Les fichiers manquants sont signalés en rouge pour relink manuel.
+5. Resolve relinke automatiquement les médias. Les fichiers manquants sont signalés en rouge pour relink manuel.
 
 **Ce qui est transféré :** clips compound/multicam, opacité, position, échelle, rotation, animations avec keyframes, timing des clips.
 
@@ -1034,8 +1034,8 @@ La même logique qui s'applique au piratage de caméras (formats ouverts, contr�
 - Nécessite le driver NVIDIA 572+
 
 **Apple Silicon M3/M4 (macOS)**
-- Décodage matériel AV1 Yes (rapide)
-- Encodage matériel AV1 No -- logiciel uniquement (CPU, lent)
+- Décodage matériel AV1 : oui (rapide)
+- Encodage matériel AV1 : non -- logiciel uniquement (CPU, lent)
 - Pour l'encodage AV1 sur Mac : déporter vers une RTX 5090 via Tailscale
 
 ### Encodeurs logiciels
@@ -1056,7 +1056,7 @@ La même logique qui s'applique au piratage de caméras (formats ouverts, contr�
 
 Netflix livre dans 190+ pays. L'AV1 offre :
 - 26-31 % de meilleure compression que le H.265 à qualité équivalente
-- Gratuit de droits (pas de frais de licence par flux)
+- Libre de redevances (pas de frais de licence par flux)
 - Standard ouvert, décodage matériel sur tous les appareils modernes
 
 **Pour un cinéaste indépendant** : l'AV1 compte pour la livraison (streaming, sortie en ligne). C'est moins urgent que le FFV1 pour l'archivage. Utiliser l'AV1 quand on publie, le FFV1 quand on préserve.

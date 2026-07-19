@@ -78,7 +78,7 @@ But what if you could open the box? What if the $1,500 DSLR sitting in your bag 
 
 That's what Magic Lantern proved. And that's what the AXIOM camera is building from scratch.
 
-I've been working with these tools since 2013. I shot a Cesar-winning film with this workflow. I matched Canon DSLR RAW footage with $20,000 cinema cameras and no one in the audience could tell the difference.
+I've been working with these tools since 2013. I shot a César-winning film with this workflow. I matched Canon DSLR RAW footage with $20,000 cinema cameras and no one in the audience could tell the difference.
 
 This is not about saving money. It's about **control**. Understanding every step of the image pipeline from photon to pixel. Being able to modify any part of the chain. Not depending on a manufacturer's decision about what you're allowed to do with hardware you own.
 
@@ -94,7 +94,7 @@ My methodology is **liquid writing** (*écriture liquide*): the boundaries betwe
 
 ### Maalbeek (2020)
 
-**Cesar for Best Documentary Short Film (2022) | Cannes, Semaine de la Critique (2020)**
+**César for Best Documentary Short Film (2022) | Cannes, Semaine de la Critique (2020)**
 
 <div align="center">
 
@@ -110,10 +110,10 @@ The film uses point cloud animation (diverted photogrammetry), archival footage,
 |---|---|
 | **Runtime** | 16 min |
 | **Format** | HD, Color |
-| **Production** | Films Grand Huit, Films a Vif |
+| **Production** | Films Grand Huit, Films à Vif |
 | **Distribution** | Square Eyes, L'Agence du court métrage |
 | **Selections** | 42 festivals |
-| **Awards** | 13+ (Cesar, Prix Andre-Martin Annecy, Golden Zagreb, Berlin-Brandenburg, Clermont-Ferrand Adobe Award + Audience Award, Golden Bayard Namur, and more) |
+| **Awards** | 13+ (César, Prix André-Martin Annecy, Golden Zagreb, Berlin-Brandenburg, Clermont-Ferrand Adobe Award + Audience Award, Golden Bayard Namur, and more) |
 
 Selected festivals: Cannes (Semaine de la Critique), IDFA, Clermont-Ferrand, Annecy, BFI London, AFI Fest, Palm Springs ShortFest, Animafest Zagreb, Uppsala, interfilm Berlin, Flickerfest, Glasgow, DokuFest.
 
