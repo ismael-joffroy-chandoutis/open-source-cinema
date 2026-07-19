@@ -66,7 +66,7 @@ Ce dépôt documente mon approche technique du cinéma indépendant : outils ope
 - [Contributions open source](#contributions-open-source)
 - [Ressources & liens](#ressources--liens)
 - [Activité sur les forums](#activité-sur-les-forums)
-- [Archivage numérique : AV1, FFV1 et formats ouverts](#archivage-numérique-av1-ffv1-et-formats-ouverts)
+- [Archivage numérique : AV1, FFV1 et formats ouverts](#archivage-numérique--av1-ffv1-et-formats-ouverts)
 
 ---
 
@@ -1005,8 +1005,8 @@ La même logique qui s'applique au piratage de caméras (formats ouverts, contr�
 
 | Format | Type | Usage | Standard |
 |--------|------|-----|----------|
-| **FFV1** | Sans perte | Archive | IETF RFC 9043 (2021) — éprouvé, approuvé par la Library of Congress |
-| **AV1 sans perte** | Sans perte | Archive | SMPTE st2048 — émergent, meilleure compression |
+| **FFV1** | Sans perte | Archive | IETF RFC 9043 (2021) -- éprouvé, approuvé par la Library of Congress |
+| **AV1 sans perte** | Sans perte | Archive | SMPTE st2048 -- émergent, meilleure compression |
 | **AV1 avec pertes** | Avec pertes | Livraison | Netflix, streaming, web |
 | **ProRes 422 HQ** | Visuellement sans perte | Intermédiaire | Montage, roundtrip (propriétaire Apple) |
 | **CinemaDNG / BRAW** | RAW | Original caméra | Spec ouverte (CinemaDNG) ou propriétaire (BRAW) |
@@ -1034,8 +1034,8 @@ La même logique qui s'applique au piratage de caméras (formats ouverts, contr�
 - Nécessite le driver NVIDIA 572+
 
 **Apple Silicon M3/M4 (macOS)**
-- Décodage matériel AV1 ✓ (rapide)
-- Encodage matériel AV1 ✗ — logiciel uniquement (CPU, lent)
+- Décodage matériel AV1 Yes (rapide)
+- Encodage matériel AV1 No -- logiciel uniquement (CPU, lent)
 - Pour l'encodage AV1 sur Mac : déporter vers une RTX 5090 via Tailscale
 
 ### Encodeurs logiciels
@@ -1068,9 +1068,9 @@ Pour la livraison à Netflix, Amazon Prime Video, Apple TV+.
 L'IMF crée un master unique qui se décline automatiquement selon les territoires (sous-titres, doublages, ratios d'image) sans re-mastering.
 
 **Outils open source :**
-- [Netflix/photon](https://github.com/Netflix/photon) — validateur IMF (Java)
-- [IMFTool](https://github.com/IMFTool/IMFTool) — éditeur CPL, gestion des versions
-- [DSRCorporation/imf-conversion](https://github.com/DSRCorporation/imf-conversion) — utilitaires
+- [Netflix/photon](https://github.com/Netflix/photon) -- validateur IMF (Java)
+- [IMFTool](https://github.com/IMFTool/IMFTool) -- éditeur CPL, gestion des versions
+- [DSRCorporation/imf-conversion](https://github.com/DSRCorporation/imf-conversion) -- utilitaires
 
 **Vérité pour les cinéastes indépendants** : l'IMF est nécessaire pour vendre aux grandes plateformes. La distribution festival/Vimeo/VOD ne l'utilise pas. La mise en place nécessite un outillage séparé de FCP/Resolve (l'export IMF expérimental existe dans Resolve mais n'est pas prêt pour la production).
 

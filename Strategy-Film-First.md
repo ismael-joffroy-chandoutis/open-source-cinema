@@ -20,7 +20,7 @@ These are not the same person.
 
 ## Three Phases
 
-### Phase 1 — Cut the Film (Now)
+### Phase 1: Cut the Film (Now)
 
 Three decisions. Nothing else.
 
@@ -36,7 +36,7 @@ With these three things: Claude Code reads the OTIO/EDL structure of the timelin
 
 ---
 
-### Phase 2 — Generative Inserts (During Post)
+### Phase 2: Generative Inserts (During Post)
 
 When the structure is locked and you know what's missing.
 
@@ -52,13 +52,13 @@ The generative layer only makes sense when you know the hole it needs to fill. G
 
 ---
 
-### Phase 3 — Design the Next Film Differently
+### Phase 3: Design the Next Film Differently
 
 The film after this one isn't shot the same way.
 
 You shoot knowing you'll reshoot some angles via ReCamMaster in post. You think in terms of spatial material rather than discrete shots. You design narrative structure as a parameter space, not a linear script. The locations become 3D environments you can re-enter. The characters' voices are cloneable for retakes.
 
-This is a different way of conceiving a film from the start — not retrofitting AI onto a traditional production. Phase 3 is only available once you've done Phases 1 and 2 and understand what AI can actually do inside your specific practice.
+This is a different way of conceiving a film from the start -- not retrofitting AI onto a traditional production. Phase 3 is only available once you've done Phases 1 and 2 and understand what AI can actually do inside your specific practice.
 
 ---
 
@@ -66,11 +66,11 @@ This is a different way of conceiving a film from the start — not retrofitting
 
 Two things converging that matter.
 
-**The CLI as structural intelligence.** Not "AI edits the film." That framing is wrong and won't produce cinema worth watching. The real shift: the CLI becomes the first collaborator capable of holding macro structure (90-minute arc) and micro detail (this cut, this silence, this sound) simultaneously, without losing the thread. A human editor holds this in memory with great effort and experience. The CLI holds it computationally and can test fifty structural variants in an hour. The editor's judgment is still the only thing that matters — but now it operates at the level of choosing between fifty tested structures rather than building one from scratch.
+**The CLI as structural intelligence.** Not "AI edits the film." That framing is wrong and won't produce cinema worth watching. The real shift: the CLI becomes the first collaborator capable of holding macro structure (90-minute arc) and micro detail (this cut, this silence, this sound) simultaneously, without losing the thread. A human editor holds this in memory with great effort and experience. The CLI holds it computationally and can test fifty structural variants in an hour. The editor's judgment is still the only thing that matters -- but now it operates at the level of choosing between fifty tested structures rather than building one from scratch.
 
-**The screenplay is disappearing as the primary document.** Not the story — the screenplay as the central structural object. In the emerging paradigm, the primary document becomes a navigable structure of narrative parameters: characters, arcs, tensions, registers, material textures. You don't write a script and shoot it. You define a space of narrative possibilities and navigate toward a film. The "cut" becomes a trajectory through that space, not a fixed sequence of decisions made once and executed.
+**The screenplay is disappearing as the primary document.** Not the story -- the screenplay as the central structural object. In the emerging paradigm, the primary document becomes a navigable structure of narrative parameters: characters, arcs, tensions, registers, material textures. You don't write a script and shoot it. You define a space of narrative possibilities and navigate toward a film. The "cut" becomes a trajectory through that space, not a fixed sequence of decisions made once and executed.
 
-This has been the implicit logic of documentary filmmaking forever — you don't know what film you have until you're in the edit. AI makes this logic available to fiction as well. The documentary filmmaker's relationship to material becomes the model for all serious filmmaking.
+This has been the implicit logic of documentary filmmaking forever -- you don't know what film you have until you're in the edit. AI makes this logic available to fiction as well. The documentary filmmaker's relationship to material becomes the model for all serious filmmaking.
 
 ---
 
@@ -80,7 +80,7 @@ It's not a shortcut to a film.
 
 It's not a way to make films without a filmmaker.
 
-It's not faster in the sense that matters — the thinking, the doubt, the time spent looking at a cut and knowing it's wrong before you can say why, the recognition of the moment that makes the film, the ethics of representation. None of that compresses.
+It's not faster in the sense that matters -- the thinking, the doubt, the time spent looking at a cut and knowing it's wrong before you can say why, the recognition of the moment that makes the film, the ethics of representation. None of that compresses.
 
 What compresses: the mechanical labor. The assembly. The variant-testing. The research. The technical debt between an idea and its execution. The time between asking "what if this scene came first" and knowing whether it works.
 

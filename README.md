@@ -1005,8 +1005,8 @@ The same logic that applies to camera hacking (open formats, control over the fu
 
 | Format | Type | Use | Standard |
 |--------|------|-----|----------|
-| **FFV1** | Lossless | Archive | IETF RFC 9043 (2021) — proven, Library of Congress approved |
-| **AV1 lossless** | Lossless | Archive | SMPTE st2048 — emerging, better compression |
+| **FFV1** | Lossless | Archive | IETF RFC 9043 (2021) -- proven, Library of Congress approved |
+| **AV1 lossless** | Lossless | Archive | SMPTE st2048 -- emerging, better compression |
 | **AV1 lossy** | Lossy | Delivery | Netflix, streaming, web |
 | **ProRes 422 HQ** | Visually lossless | Intermediate | Editing, roundtrip (Apple proprietary) |
 | **CinemaDNG / BRAW** | RAW | Camera original | Open spec (CinemaDNG) or proprietary (BRAW) |
@@ -1034,8 +1034,8 @@ The same logic that applies to camera hacking (open formats, control over the fu
 - Requires NVIDIA driver 572+
 
 **Apple Silicon M3/M4 (macOS)**
-- Hardware AV1 **decoding** ✓ (fast)
-- Hardware AV1 **encoding** ✗ — software-only (CPU, slow)
+- Hardware AV1 **decoding** Yes (fast)
+- Hardware AV1 **encoding** No -- software-only (CPU, slow)
 - For AV1 encoding on Mac: offload to RTX 5090 via Tailscale
 
 ### Software Encoders
@@ -1068,9 +1068,9 @@ For delivery to Netflix, Amazon Prime Video, Apple TV+.
 IMF creates a single master file that auto-versions across territories (subtitles, dubs, aspect ratios) without re-mastering.
 
 **Open source tools:**
-- [Netflix/photon](https://github.com/Netflix/photon) — IMF validator (Java)
-- [IMFTool](https://github.com/IMFTool/IMFTool) — CPL editor, versioning
-- [DSRCorporation/imf-conversion](https://github.com/DSRCorporation/imf-conversion) — utilities
+- [Netflix/photon](https://github.com/Netflix/photon) -- IMF validator (Java)
+- [IMFTool](https://github.com/IMFTool/IMFTool) -- CPL editor, versioning
+- [DSRCorporation/imf-conversion](https://github.com/DSRCorporation/imf-conversion) -- utilities
 
 **Reality check for indie filmmakers**: IMF is necessary if selling to major platforms. Festival/Vimeo/VOD distribution doesn't use it. Setup requires separate tooling from FCP/Resolve (experimental IMF export exists in Resolve but not production-ready).
 
