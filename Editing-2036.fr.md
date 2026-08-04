@@ -66,7 +66,7 @@ Fait notable : cette boucle de vérification perceptive n'existe chez aucun prod
 
 ## L'actif que personne ne peut acheter
 
-Un ingénieur qui construit un outil de montage par IA l'a formulé mieux que le reste du secteur : il n'existe presque aucune donnée structurée sur les décisions de montage. Personne ne possède le corpus des différences entre deux versions d'un cut accompagnées de la raison du changement. On trouve des films finis en quantité, on ne trouve pas le chemin qui y mène.
+Vojta Jina, ancien ingénieur d'AngularJS puis d'Apple, aujourd'hui à la tête du projet Ctuber, l'a formulé mieux que le reste du secteur en décembre 2025 : il n'existe presque aucune donnée structurée sur les décisions de montage. Personne ne possède le corpus des différences entre deux versions d'un cut accompagnées de la raison du changement. On trouve des films finis en quantité, on ne trouve pas le chemin qui y mène. C'est d'ailleurs pourquoi il refuse de construire un éditeur complet et attaque par une version étroite : le produit sert d'abord à collecter cette donnée-là.
 
 Or ma manière de travailler fabrique mécaniquement ce corpus : les timelines versionnées en git, le mur de décision horodaté, les comptes rendus de comité qui disent pourquoi une version a été écartée. Ce n'est pas un sous-produit, c'est le seul actif de cette pratique que ni Adobe ni Blackmagic ni un laboratoire ne peut acheter, parce qu'il ne se collecte pas à l'échelle : il faut des années de montage réel d'une même personne pour qu'il ait un sens.
 
@@ -98,7 +98,7 @@ Le montage ne sera pas dirigé par un agent, il sera entouré par eux. L'assista
 
 Ce qui me préoccupe n'est pas que les machines montent. C'est que la matière devienne infiniment corrigeable et que le montage cesse d'être un art de la contrainte pour devenir un art de la spécification. Contre cela, il n'y a pas d'argument technique, seulement une discipline : garder le capté au centre, déclarer chaque réécriture, et refuser de fabriquer le plan qui manque quand le manque est le sujet.
 
-Une dernière remarque, plus stratégique qu'artistique. La théorie académique française de l'IA-cinéma a posé cette année deux briques, le monde et l'observateur, et n'a rien dit du montage. Le troisième terme manque, et la place est vide. Quand un discours institutionnel oublie le lieu où le sens se fabrique, ce n'est pas un oubli, c'est une infrastructure d'absences qu'il vaut la peine de nommer.
+Une dernière remarque, plus stratégique qu'artistique. En février 2026, Xi Wang présentait à l'École polytechnique, dans le cadre de l'institut Hi! PARIS, une intervention intitulée « AI Cinema: are we ready for World + Observer? ». Sa thèse est juste : le cinéma ne consiste pas à générer des images, il consiste à structurer du sens par ce qui arrive et par la façon dont c'est observé. Le monde et l'observateur y sont posés comme les deux briques de l'IA-cinéma. Et il n'y est rien dit du montage. Le troisième terme manque, et la place est vide. Quand un discours institutionnel oublie le lieu où le sens se fabrique, ce n'est pas un oubli, c'est une infrastructure d'absences qu'il vaut la peine de nommer.
 
 ---
 
