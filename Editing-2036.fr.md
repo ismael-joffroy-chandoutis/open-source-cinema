@@ -2,9 +2,6 @@
 
 *Suite et révision de « Agent-Driven Editing » (février 2026). Six mois ont suffi à périmer sa conclusion principale.*
 
-<img src="editing-2036.jpg" width="100%" alt="">
-
-
 ---
 
 ## Ce qui a été écrit en février, et ce qui est faux depuis
@@ -64,6 +61,26 @@ Il y a une seconde tension que mon texte de février n'avait pas résolue et que
 Ce qui les réconcilie est une question d'échelle de décision. La boucle automatisée fonctionne pour tout ce qui a un critère nommable : la continuité tient ou non, le raccord regard est correct ou faux, un visage apparaît là où il ne doit pas, un plan dépasse le budget de durée d'une séquence. Elle ne fonctionne pas pour le rythme, qui n'est pas une propriété du fichier mais un effet sur un corps. Donc : boucle fermée sur la vérification, boucle ouverte sur le jugement. Et c'est précisément le partage que ma règle de comité posait déjà : l'agent écrit des documents, il ne mute jamais la timeline.
 
 Fait notable : cette boucle de vérification perceptive n'existe chez aucun produit du marché. Eddie, Descript, Adobe, Runway livrent tous en une passe et rendent la main. Le « recommence jusqu'à ce que ce soit tenable » est le seul endroit où un auteur seul avec des machines fait quelque chose qu'un éditeur logiciel ne fait pas, parce que ce n'est rentable pour personne d'autre.
+
+---
+
+## Et si l'objet n'était pas un montage mais un espace de montages
+
+Tout ce qui précède suppose qu'on fabrique un film. Il faut poser l'hypothèse inverse, parce qu'elle défait le reste : et si l'outil servait à autoriser un système qui produit des montages sans fin, plutôt qu'à produire un montage.
+
+L'idée n'est pas neuve et il faut le dire avant de la revendiquer. Elle a vingt et un ans, et son auteur est Lev Manovich : *Soft Cinema*, publié en 2005, était un logiciel qui montait en temps réel en puisant dans une base de données selon des règles définies par les auteurs, produisant des films qui pouvaient tourner indéfiniment sans jamais répéter exactement la même suite d'images. Ce qui a changé depuis n'est pas le principe, c'est que le corpus n'a plus besoin d'être fini.
+
+Trois précédents récents tiennent chacun une partie du problème, et aucun ne les tient toutes. Gary Hustwit et Brendan Dawes, avec le logiciel Brain One, ont fait de *Eno* un documentaire qui se recompose à chaque projection, cinquante-deux quintillions de versions selon l'estimation qui a circulé, avec une nouvelle version diffusée chaque semaine. Ian Cheng fait tourner des simulations vivantes à durée infinie depuis 2015. Tyler Hobbs a formulé en 2021 la loi de ce régime, et elle est dure : dans une œuvre générative de série longue, l'artiste n'a nulle part où se cacher, les mauvais résultats doivent être extrêmement rares, l'algorithme ne peut plus tomber sur un bon résultat par chance, il doit en produire de façon fiable.
+
+Deux enseignements empiriques valent mieux qu'un raisonnement. Le premier vient de *Nothing, Forever*, sitcom générée en continu sur Twitch depuis décembre 2022 : phénomène viral à son lancement, elle diffuse toujours en 2026, devant huit à neuf spectateurs. C'est la réponse expérimentale à la question de savoir si un film sans fin se regarde. Le second vient de *Eno*, qui fonctionne pour une raison précise : **chaque instance est finie**, cent minutes, une salle, un générique, et c'est le méta-objet qui est infini. L'infini va dans le système, jamais dans la séance. Une installation peut tenir cent soixante-huit heures parce que le visiteur y découpe lui-même sa durée ; une projection ne le peut pas.
+
+Reste la question qui décide de tout, et elle n'est pas formelle. Si le système produit toutes les coupes, l'auteur ne répond plus d'un montage mais de l'espace entier des montages possibles, y compris des pires, y compris de celui qui sera projeté une seule fois et qu'il n'aura jamais vu. Sur une matière documentaire portant sur une personne réelle, cette question cesse d'être une coquetterie. Le précédent négatif est daté : en 2021, *Roadrunner* faisait prononcer par une voix synthétique trois phrases qu'Anthony Bourdain avait écrites sans jamais les dire, sans le divulguer, et son réalisateur répondait aux objections qu'on pourrait tenir un panel d'éthique documentaire plus tard. Le précédent positif l'est aussi : la même année, *Welcome to Chechnya* remplaçait les visages de ses témoins par des visages de synthèse pour les protéger, en conservant leurs vraies émotions.
+
+C'est là que se trouve la place réellement libre, et elle n'est pas conceptuelle. Hustwit tient l'espace de montages et la matière documentaire, mais sur le seul sujet au monde pour lequel cette forme ne coûte rien : Brian Eno a passé sa vie à défendre l'idée qu'on spécifie des règles et qu'on laisse la chose se faire. Refik Anadol tient l'espace de possibles mais sa matière n'a pas de sujet. Ian Cheng tient la durée infinie mais son monde est fictionnel de bout en bout. Sam Barlow tient la base de rushes navigable, mais c'est le spectateur qui monte.
+
+**Personne n'a fait tourner un système de montage génératif sur un corpus documentaire portant sur une personne réelle, vivante et contestée.** Ce trou n'existe pas parce que la technique manque. Il existe parce que c'est là que le coût éthique est maximal. Et c'est exactement pourquoi il vaut la peine d'y aller, à une condition qui est la même que celle du reste de ce texte : le capté garde la dernière instance, et le système ne génère que dans un espace de coupes déjà validé. Il combine sans décider. Le jour où il décide vraiment, il faut assumer de signer une grammaire et non une phrase, et personne n'a encore formulé cette position pour du documentaire.
+
+Une dernière chose à trancher dès l'origine, parce qu'elle est toujours traitée trop tard : ce qui se conserve. Une œuvre-système ne se collectionne pas comme un fichier. *Longplayer*, qui doit jouer mille ans, a dû inventer une fondation pour lui survivre. Un système documentaire devra dire s'il lègue le corpus, les règles, le code, ou une seule instance témoin. C'est une décision d'auteur, pas une décision technique.
 
 ---
 
