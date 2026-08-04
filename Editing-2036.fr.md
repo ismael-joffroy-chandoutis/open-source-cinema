@@ -2,6 +2,9 @@
 
 *Suite et révision de « Agent-Driven Editing » (février 2026). Six mois ont suffi à périmer sa conclusion principale.*
 
+<img src="editing-2036.jpg" width="100%" alt="">
+
+
 ---
 
 ## Ce qui a été écrit en février, et ce qui est faux depuis
