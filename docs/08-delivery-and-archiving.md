@@ -16,6 +16,8 @@ A DCP (Digital Cinema Package) is the format cinemas and festivals play: JPEG 20
 
 The usual way with it: export a master from Resolve (a TIFF or DPX sequence with WAV files, or ProRes 4444), then build the DCP in DCP-o-matic. It also handles subtitles. Before sending a DCP to a festival, play it from start to end in DCP-o-matic's player, and if you can, in a cinema.
 
+DCP-o-matic encodes JPEG 2000 on the CPU, and it can share the work with other machines on the network. Since October 2023 it can also use Grok, a GPU encoder written by Aaron Boxer ([announcement on the DCP-o-matic forum, 18 October 2023](https://dcpomatic.com/forum/viewtopic.php?p=11318)). The Grok core is open source (AGPL v3) and encodes on the CPU. The GPU encoder is a paid, closed plugin for Linux and Nvidia cards ([Grok](https://grokcompression.com/)). So DCP-o-matic is open, and its fastest encoder is closed.
+
 ## Open formats for the archive
 
 An archive format has to be readable without the company that made it. These are the open ones that matter for this chain.
