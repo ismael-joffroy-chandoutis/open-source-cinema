@@ -85,6 +85,31 @@ I tried the 3.5K mode, higher frame rates and the crop modes during the Maalbeek
 
 ![Cards and data rates](../schemas/03-cards-and-data-rates.svg)
 
+## The 5.7K anamorphic mode in numbers
+
+"5.7K" is the size after stretching. The camera records 1920 columns by 2340 lines, about 4.5 million pixels per frame, and MLV App stretches the width by 3. The 3:2 mode records 1920x1280, about 2.5 million pixels. The real gain is vertical: 2340 lines instead of 1280.
+
+Data rates at 23.976 fps, in MB/s:
+
+| Setting | Data rate | Where the number comes from |
+|---|---|---|
+| 14-bit uncompressed | 189 | calculated |
+| 12-bit uncompressed | 162 | calculated |
+| 12-bit lossless | 89 to 114 | measured by masc |
+| 14-bit lossless | 93 to 141 | my estimate, explained below |
+| 10-bit lossless | 74 to 95 | my estimate, scaled from masc's 12-bit figure |
+
+**How I estimate 14-bit lossless.** In 1080p, my 14-bit lossless files weigh about half of the uncompressed size: about 43 MB/s on the 2018 figure above, and 45 MB/s on a 2017 clip (273 frames, 0.51 GB). Applied to the pixel count of the anamorphic mode, that gives 93 MB/s. This is the optimistic end. 1080p averages nine pixels and the anamorphic mode only three, so the image is noisier and compresses less. The other end starts from masc's 12-bit measurement and adds two bits per pixel: 141 MB/s.
+
+**What the two cards write together.** masc wrote in July 2020 that his CF took about 70 MB/s and his SD about 50 at the same time, so about 120 MB/s. With the SD at 240 MHz, Walter Schulz gives about 145 MB/s in total (see [Cards](#cards)).
+
+What I conclude, before testing on my own camera:
+
+- **12-bit lossless records continuously.** It is the realistic setting, and the one masc uses.
+- **14-bit lossless is at the limit.** It may hold on a calm scene at low ISO with a fast SD card. I would not plan a shoot on it.
+- **The H.264 proxy should fit next to 12-bit lossless.** It adds about 4 MB/s in IPB, on the SD. What the proxy shows in this mode is unknown: the code allows it and warns that the framing is not accurate. This is test 7 in [chapter 06](06-outlook-and-test-list.md).
+- **A 64 GB CF card lasts about 15 minutes** in this mode (calculated from the CF share of the data).
+
 ## The 3:2 mode
 
 3:2 is the native ratio of the sensor. At 1920 wide, the Magic Lantern menu gives **1920x1280** in 3:2, 1920x1152 in 5:3 and 1920x1080 in 16:9 (the list of ratios is in [mlv_lite.c](https://github.com/reticulatedpines/magiclantern_simplified/blob/cb1783df88de6634f2e480658e0d34a227b29f22/modules/raw_video/mlv_lite/mlv_lite.c#L118-L123)). This is the mode of the Maalbeek scans. In older texts I wrote 1920x1200 for it. That size is not in the menu.
@@ -141,6 +166,16 @@ In the 3x3 binning modes (1080p and 3:2) the camera shows a real-time colour ima
 The HDMI output is a separate problem: "HDMI output doesn't work properly on 5D3 when switching to any crop modes" (arnaud-sintes, 28 May 2023, [thread 26910](https://www.magiclantern.fm/forum/index.php?topic=26910.0)). A user was still asking for a fix on 11 February 2026.
 
 I asked for a real-time preview in the 5.7K anamorphic modes several times, in 2020 and 2022 ([#201](https://www.magiclantern.fm/forum/index.php?topic=25180.msg229685#msg229685), [#211](https://www.magiclantern.fm/forum/index.php?topic=23041.msg240650#msg240650)). The answer in 2022 was that nobody was working on it ([#213](https://www.magiclantern.fm/forum/index.php?topic=23041.msg240661#msg240661)). Bilal's "Crop mood", a real-time preview for crop modes, exists for the 650D, 700D, EOS M, M2 and 100D, not for the 5D3. More in [chapter 06](06-outlook-and-test-list.md).
+
+### Shooting 5.7K without a real-time preview
+
+Until the preview exists, I think of the 5.7K mode as shooting on film with a poor viewfinder. A film camera has an optical viewfinder, and the 5D3 has none in video. But on a film set the focus puller doesn't look at the image either: focus is pulled by distance, with a tape measure and marks on the lens. That method works here.
+
+- **Where it fits:** shots on a tripod or a gimbal, prepared and rehearsed, and interviews. Focus is set before the take, with the zoom on half-press of the shutter ([Sergio Russo, at 15:32](https://www.youtube.com/watch?v=Ns0OECXexK4&t=932s)). Closing the aperture a little helps.
+- **Where it doesn't:** handheld shots, because of the rolling shutter ([Sergio Russo's comparison, at 6:14](https://www.youtube.com/watch?v=O7b2m4B2eKU&t=374s)), and focus followed by eye on a moving face.
+- **To check a take:** take the card out and open the clip in MLV App on a laptop. `mlv_play` on the camera is not real time.
+
+For everything improvised, the 3:2 mode stays the one to use.
 
 ## Dual ISO
 
