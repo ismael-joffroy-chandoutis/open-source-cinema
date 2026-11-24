@@ -22,7 +22,7 @@ DCP-o-matic encodes JPEG 2000 on the CPU, and it can share the work with other m
 
 **Group: What I have shot with.** In May 2017 I tested DCP-o-matic for the Côté Court festival, to create DCPs and to use it as a player. In June 2021 I made a test DCP of Maalbeek with it, and it's still the tool I use for my DCPs.
 
-In spring 2020, while I was working with Fastvideo on Fast CinemaDNG, I wrote for its founder, Fyodor Serzhenko, the specification of a GPU JPEG 2000 encoder for DCP: 2K and 4K, Interop and SMPTE, 24 fps, 250 Mbit/s, and the conversion to XYZ. He asked me to present his encoder to Carl Hetherington, the author of DCP-o-matic, and in June 2020 he sent Carl his SDK. Carl integrated it in two test branches of DCP-o-matic's own git repository, `fastvideo` in the summer of 2020 and `fastvideo2` in November 2021. Neither was merged into the main branch or released. The GPU encoding that DCP-o-matic did release, in 2023, is Grok, described above.
+In spring 2020, while I was sending feedback to Fastvideo on Fast CinemaDNG, I wrote for them the specification of a GPU JPEG 2000 encoder for DCP: 2K and 4K, Interop and SMPTE, 24 fps, 250 Mbit/s, and the conversion to XYZ. DCP-o-matic's own git repository has two test branches built on Fastvideo's SDK, `fastvideo` in the summer of 2020 and `fastvideo2` in November 2021. Neither was merged into the main branch or released. The GPU encoding that DCP-o-matic did release, in 2023, is Grok, described above.
 
 ## Open formats for the archive
 

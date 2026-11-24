@@ -40,7 +40,7 @@ On the 5D Mark III, I also tried the 3.5K mode, higher frame rates and the crop 
 
 ## The 8K render with EbSynth
 
-For the final render of Maalbeek in 8K, in 2020, I used EbSynth, a style transfer tool made by Secret Weapons. In June 2020 a frame took about five minutes and the second graphics card wasn't used, so I wrote to its developers and asked for a beta. Ondřej Jamriška sent me a new beta, announced as three times faster at very high resolutions. I tested it on the film and sent back crash reports in 8K, test renders and two feature requests: TIFF import, because Resolve doesn't export PNG, and a time remaining display. The version they gave me was used for the final render, and the EbSynth logo is in the credits of the cinema version.
+For the final render of Maalbeek in 8K, in 2020, I used EbSynth, a style transfer tool made by Secret Weapons. In June 2020 a frame took about five minutes and the second graphics card wasn't used, so I wrote to its developers and asked for a beta. Its developers sent me a new beta. I tested it on the film and sent back crash reports in 8K, test renders and two feature requests: TIFF import, because Resolve doesn't export PNG, and a time remaining display. The version they gave me was used for the final render, and the EbSynth logo is in the credits of the cinema version.
 
 The research code behind EbSynth is published on GitHub ([jamriska/ebsynth](https://github.com/jamriska/ebsynth)).
 
