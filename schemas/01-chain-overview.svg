@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 436" width="1200" height="436" role="img" aria-labelledby="title desc">
+<title id="title">Production chain: from the camera to the archive</title>
+<desc id="desc">Seven steps from left to right. 1 Shoot on a Canon 5D Mark III with Magic Lantern: 14-bit lossless MLV RAW on the CF card, H.264 proxy with sound on the SD card. 2 Ingest and check: copy both cards to two drives, checksum, play every MLV in MLV App before formatting. 3 Edit on proxies: Switch cuts black frames and resets timecode without re-encoding, then the proxies are edited in Final Cut Pro and exported as FCPXML. 4 Conform on the RAW: MLV App converts MLV to CinemaDNG or ProRes, DaVinci Resolve imports the FCPXML and relinks each shot by timecode and name. 5 Grade in DaVinci Resolve in DaVinci Wide Gamut / DaVinci Intermediate. 6 Deliver a DCP and Rec.709 masters with Resolve Studio and DCP-o-matic. 7 Archive the MLV originals, proxies and a ProRes 4444 or TIFF master. The RAW files wait on the drives from step 2 until the cut is locked.</desc>
+<style>text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px}.h1{font-size:22px;font-weight:600}.h2{font-size:16px;font-weight:600}.b{font-weight:600}.s15{font-size:15px}.t{fill:#1f2328}.mu{fill:#59636e}.raw{fill:#c2410c}.px{fill:#0969da}.bx{fill:none;stroke:#6e7781;stroke-width:1.5}.bxr{fill:#c2410c;fill-opacity:.08;stroke:#c2410c;stroke-width:1.75}.bxp{fill:#0969da;fill-opacity:.08;stroke:#0969da;stroke-width:1.75}.bxd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#6e7781;stroke-width:1.5}.lnr{fill:none;stroke:#c2410c;stroke-width:2}.lnp{fill:none;stroke:#0969da;stroke-width:2}.lnd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#d0d7de;stroke-width:1}.fr{fill:#c2410c;fill-opacity:.22;stroke:#c2410c;stroke-width:1.5}.frs{fill:#c2410c}.frl{fill:#c2410c;fill-opacity:.45}.fn{fill:#6e7781}.fp{fill:#0969da}.ah{fill:#6e7781}.ahr{fill:#c2410c}.ahp{fill:#0969da}@media (prefers-color-scheme: dark){.t{fill:#e6edf3}.mu{fill:#9198a1}.raw{fill:#ff8a4c}.px{fill:#58a6ff}.bx{fill:none;stroke:#8b949e;stroke-width:1.5}.bxr{fill:#ff8a4c;fill-opacity:.08;stroke:#ff8a4c;stroke-width:1.75}.bxp{fill:#58a6ff;fill-opacity:.08;stroke:#58a6ff;stroke-width:1.75}.bxd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#8b949e;stroke-width:1.5}.lnr{fill:none;stroke:#ff8a4c;stroke-width:2}.lnp{fill:none;stroke:#58a6ff;stroke-width:2}.lnd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#3d444d;stroke-width:1}.fr{fill:#ff8a4c;fill-opacity:.22;stroke:#ff8a4c;stroke-width:1.5}.frs{fill:#ff8a4c}.frl{fill:#ff8a4c;fill-opacity:.45}.fn{fill:#8b949e}.fp{fill:#58a6ff}.ah{fill:#8b949e}.ahr{fill:#ff8a4c}.ahp{fill:#58a6ff}}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahr" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahp" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+<text x="16" y="34" class="t h1" text-anchor="start">From the camera to the archive</text>
+<text x="16" y="58" class="mu" text-anchor="start">Canon 5D Mark III with Magic Lantern: edit on proxies, finish on the RAW</text>
+<rect x="840" y="23" width="22" height="12" rx="2" class="bxr"/>
+<text x="870" y="34" class="t" text-anchor="start">RAW (MLV, CinemaDNG)</text>
+<rect x="1055" y="23" width="22" height="12" rx="2" class="bxp"/>
+<text x="1085" y="34" class="t" text-anchor="start">Proxy (H.264)</text>
+<rect x="16" y="130" width="154" height="196" rx="6" class="bx"/>
+<text x="26" y="156" class="t h2" text-anchor="start">1  Shoot</text>
+<text x="26" y="184" class="t" text-anchor="start">Canon 5D Mark III</text>
+<text x="26" y="203" class="t" text-anchor="start">Magic Lantern</text>
+<text x="26" y="222" class="raw" text-anchor="start">RAW: MLV 14-bit</text>
+<text x="26" y="241" class="raw" text-anchor="start">lossless, on CF</text>
+<text x="26" y="260" class="px" text-anchor="start">Proxy: H.264 with</text>
+<text x="26" y="279" class="px" text-anchor="start">sound, on SD</text>
+<line x1="16" y1="342" x2="170" y2="342" class="gr"/>
+<text x="26" y="364" class="t b" text-anchor="start">Magic Lantern</text>
+<rect x="184" y="130" width="154" height="196" rx="6" class="bx"/>
+<text x="194" y="156" class="t h2" text-anchor="start">2  Ingest, check</text>
+<text x="194" y="184" class="t" text-anchor="start">Copy CF and SD to</text>
+<text x="194" y="203" class="t" text-anchor="start">two drives</text>
+<text x="194" y="222" class="t" text-anchor="start">Checksum each file</text>
+<text x="194" y="241" class="t" text-anchor="start">Play every MLV</text>
+<text x="194" y="260" class="t" text-anchor="start">before formatting</text>
+<text x="194" y="279" class="t" text-anchor="start">the cards</text>
+<line x1="184" y1="342" x2="338" y2="342" class="gr"/>
+<text x="194" y="364" class="t b" text-anchor="start">MLV App</text>
+<rect x="352" y="130" width="154" height="196" rx="6" class="bxp"/>
+<text x="362" y="156" class="t h2" text-anchor="start">3  Edit on proxies</text>
+<text x="362" y="184" class="px" text-anchor="start">Switch: cut black</text>
+<text x="362" y="203" class="px" text-anchor="start">frames, reset TC,</text>
+<text x="362" y="222" class="px" text-anchor="start">no re-encode</text>
+<text x="362" y="241" class="t" text-anchor="start">Edit the H.264</text>
+<text x="362" y="260" class="t" text-anchor="start">proxies</text>
+<text x="362" y="279" class="t" text-anchor="start">Export FCPXML</text>
+<line x1="352" y1="342" x2="506" y2="342" class="gr"/>
+<text x="362" y="364" class="t b" text-anchor="start">Switch,</text>
+<text x="362" y="383" class="t b" text-anchor="start">Final Cut Pro</text>
+<rect x="520" y="130" width="154" height="196" rx="6" class="bxr"/>
+<text x="530" y="156" class="t h2" text-anchor="start">4  Conform</text>
+<text x="530" y="184" class="raw" text-anchor="start">MLV to CinemaDNG</text>
+<text x="530" y="203" class="raw" text-anchor="start">or ProRes</text>
+<text x="530" y="222" class="t" text-anchor="start">Import FCPXML</text>
+<text x="530" y="241" class="t" text-anchor="start">Relink each shot</text>
+<text x="530" y="260" class="t" text-anchor="start">to the RAW by</text>
+<text x="530" y="279" class="t" text-anchor="start">timecode and name</text>
+<line x1="520" y1="342" x2="674" y2="342" class="gr"/>
+<text x="530" y="364" class="t b" text-anchor="start">MLV App,</text>
+<text x="530" y="383" class="t b" text-anchor="start">DaVinci Resolve</text>
+<rect x="688" y="130" width="154" height="196" rx="6" class="bxr"/>
+<text x="698" y="156" class="t h2" text-anchor="start">5  Grade</text>
+<text x="698" y="184" class="t" text-anchor="start">Decode the RAW</text>
+<text x="698" y="203" class="t" text-anchor="start">Input transform to</text>
+<text x="698" y="222" class="t" text-anchor="start">DaVinci Wide</text>
+<text x="698" y="241" class="t" text-anchor="start">Gamut / DaVinci</text>
+<text x="698" y="260" class="t" text-anchor="start">Intermediate</text>
+<text x="698" y="279" class="t" text-anchor="start">Grade, film LUT</text>
+<line x1="688" y1="342" x2="842" y2="342" class="gr"/>
+<text x="698" y="364" class="t b" text-anchor="start">DaVinci Resolve</text>
+<rect x="856" y="130" width="154" height="196" rx="6" class="bx"/>
+<text x="866" y="156" class="t h2" text-anchor="start">6  Deliver</text>
+<text x="866" y="184" class="t" text-anchor="start">DCP: JPEG2000,</text>
+<text x="866" y="203" class="t" text-anchor="start">XYZ, 2K or 4K</text>
+<text x="866" y="222" class="t" text-anchor="start">Masters: Rec.709,</text>
+<text x="866" y="241" class="t" text-anchor="start">ProRes 422 HQ</text>
+<text x="866" y="260" class="t" text-anchor="start">Web: H.264 or</text>
+<text x="866" y="279" class="t" text-anchor="start">H.265</text>
+<line x1="856" y1="342" x2="1010" y2="342" class="gr"/>
+<text x="866" y="364" class="t b" text-anchor="start">Resolve Studio,</text>
+<text x="866" y="383" class="t b" text-anchor="start">DCP-o-matic</text>
+<rect x="1024" y="130" width="154" height="196" rx="6" class="bx"/>
+<text x="1034" y="156" class="t h2" text-anchor="start">7  Archive</text>
+<text x="1034" y="184" class="t" text-anchor="start">MLV originals and</text>
+<text x="1034" y="203" class="t" text-anchor="start">proxies: 3 copies,</text>
+<text x="1034" y="222" class="t" text-anchor="start">2 media, 1 offsite</text>
+<text x="1034" y="241" class="t" text-anchor="start">Master: ProRes</text>
+<text x="1034" y="260" class="t" text-anchor="start">4444 or TIFF,</text>
+<text x="1034" y="279" class="t" text-anchor="start">DWG / DI</text>
+<line x1="1024" y1="342" x2="1178" y2="342" class="gr"/>
+<text x="1034" y="364" class="t b" text-anchor="start">Drives and an</text>
+<text x="1034" y="383" class="t b" text-anchor="start">offsite copy</text>
+<text x="16" y="418" class="mu" text-anchor="start">Under each step: the tool used</text>
+<line x1="171" y1="228.0" x2="183" y2="228.0" class="ln" marker-end="url(#a)"/>
+<line x1="339" y1="228.0" x2="351" y2="228.0" class="lnp" marker-end="url(#ap)"/>
+<line x1="507" y1="228.0" x2="519" y2="228.0" class="lnp" marker-end="url(#ap)"/>
+<line x1="675" y1="228.0" x2="687" y2="228.0" class="lnr" marker-end="url(#ar)"/>
+<line x1="843" y1="228.0" x2="855" y2="228.0" class="lnr" marker-end="url(#ar)"/>
+<line x1="1011" y1="228.0" x2="1023" y2="228.0" class="lnr" marker-end="url(#ar)"/>
+<path d="M261.0,128 L261.0,104 L597.0,104 L597.0,126" class="lnr" marker-end="url(#ar)"/>
+<text x="429.0" y="96" class="raw" text-anchor="middle">The RAW waits on the drives until the cut is locked</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 464" width="1200" height="464" role="img" aria-labelledby="title desc">
+<title id="title">Maalbeek: RAW video to point cloud</title>
+<desc id="desc">Five steps. 1 One-take shots in 14-bit lossless RAW video at 24 fps on a Canon 5D Mark III with Magic Lantern in 2019, with a fast shutter and a slow camera move. 2 Each frame is a 14-bit RAW still without motion blur, usable as a photo, which an H.264 frame is not. 3 Agisoft Metashape aligns the frames and builds a dense point cloud, faithful and low in noise, also on reflective surfaces. 4 Unity renders the point cloud with shaders written for the film. 5 The cinematography of the film starts from these scans. The method replaced still photos on a tripod in the metro, where time and permits were short.</desc>
+<style>text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px}.h1{font-size:22px;font-weight:600}.h2{font-size:16px;font-weight:600}.b{font-weight:600}.s15{font-size:15px}.t{fill:#1f2328}.mu{fill:#59636e}.raw{fill:#c2410c}.px{fill:#0969da}.bx{fill:none;stroke:#6e7781;stroke-width:1.5}.bxr{fill:#c2410c;fill-opacity:.08;stroke:#c2410c;stroke-width:1.75}.bxp{fill:#0969da;fill-opacity:.08;stroke:#0969da;stroke-width:1.75}.bxd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#6e7781;stroke-width:1.5}.lnr{fill:none;stroke:#c2410c;stroke-width:2}.lnp{fill:none;stroke:#0969da;stroke-width:2}.lnd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#d0d7de;stroke-width:1}.fr{fill:#c2410c;fill-opacity:.22;stroke:#c2410c;stroke-width:1.5}.frs{fill:#c2410c}.frl{fill:#c2410c;fill-opacity:.45}.fn{fill:#6e7781}.fp{fill:#0969da}.ah{fill:#6e7781}.ahr{fill:#c2410c}.ahp{fill:#0969da}@media (prefers-color-scheme: dark){.t{fill:#e6edf3}.mu{fill:#9198a1}.raw{fill:#ff8a4c}.px{fill:#58a6ff}.bx{fill:none;stroke:#8b949e;stroke-width:1.5}.bxr{fill:#ff8a4c;fill-opacity:.08;stroke:#ff8a4c;stroke-width:1.75}.bxp{fill:#58a6ff;fill-opacity:.08;stroke:#58a6ff;stroke-width:1.75}.bxd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#8b949e;stroke-width:1.5}.lnr{fill:none;stroke:#ff8a4c;stroke-width:2}.lnp{fill:none;stroke:#58a6ff;stroke-width:2}.lnd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#3d444d;stroke-width:1}.fr{fill:#ff8a4c;fill-opacity:.22;stroke:#ff8a4c;stroke-width:1.5}.frs{fill:#ff8a4c}.frl{fill:#ff8a4c;fill-opacity:.45}.fn{fill:#8b949e}.fp{fill:#58a6ff}.ah{fill:#8b949e}.ahr{fill:#ff8a4c}.ahp{fill:#58a6ff}}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahr" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahp" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+<text x="16" y="34" class="t h1" text-anchor="start">Maalbeek (2020): from RAW video to a point cloud</text>
+<text x="16" y="58" class="mu" text-anchor="start">Scans of the Brussels metro shot as RAW video instead of still photos on a tripod: little time, few permits.</text>
+<rect x="16" y="96" width="214" height="190" rx="6" class="bxr"/>
+<text x="28" y="124" class="t h2" text-anchor="start">1  Shoot</text>
+<text x="28" y="145" class="t" text-anchor="start">Canon 5D Mark III,</text>
+<text x="28" y="166" class="t" text-anchor="start">Magic Lantern</text>
+<text x="28" y="187" class="t" text-anchor="start">14-bit lossless RAW</text>
+<text x="28" y="208" class="t" text-anchor="start">video, 24 fps, 2019</text>
+<text x="28" y="229" class="t" text-anchor="start">One-take shots: fast</text>
+<text x="28" y="250" class="t" text-anchor="start">shutter, slow move</text>
+<line x1="231" y1="191.0" x2="254" y2="191.0" class="lnr" marker-end="url(#ar)"/>
+<rect x="255" y="96" width="214" height="190" rx="6" class="bxr"/>
+<text x="267" y="124" class="t h2" text-anchor="start">2  Frames as stills</text>
+<text x="267" y="145" class="t" text-anchor="start">Each frame is a</text>
+<text x="267" y="166" class="t" text-anchor="start">14-bit RAW image</text>
+<text x="267" y="187" class="t" text-anchor="start">with no motion blur:</text>
+<text x="267" y="208" class="t" text-anchor="start">usable as a photo,</text>
+<text x="267" y="229" class="t" text-anchor="start">which an H.264</text>
+<text x="267" y="250" class="t" text-anchor="start">frame is not</text>
+<line x1="470" y1="191.0" x2="493" y2="191.0" class="ln" marker-end="url(#a)"/>
+<rect x="494" y="96" width="214" height="190" rx="6" class="bx"/>
+<text x="506" y="124" class="t h2" text-anchor="start">3  Photogrammetry</text>
+<text x="506" y="145" class="t" text-anchor="start">Agisoft Metashape</text>
+<text x="506" y="166" class="t" text-anchor="start">Align the frames</text>
+<text x="506" y="187" class="t" text-anchor="start">Dense point cloud</text>
+<text x="506" y="208" class="t" text-anchor="start">Faithful and low in</text>
+<text x="506" y="229" class="t" text-anchor="start">noise, also on</text>
+<text x="506" y="250" class="t" text-anchor="start">reflective surfaces</text>
+<line x1="709" y1="191.0" x2="732" y2="191.0" class="ln" marker-end="url(#a)"/>
+<rect x="733" y="96" width="214" height="190" rx="6" class="bx"/>
+<text x="745" y="124" class="t h2" text-anchor="start">4  Render</text>
+<text x="745" y="145" class="t" text-anchor="start">Unity</text>
+<text x="745" y="166" class="t" text-anchor="start">Renders the point</text>
+<text x="745" y="187" class="t" text-anchor="start">cloud with shaders</text>
+<text x="745" y="208" class="t" text-anchor="start">written for the film</text>
+<line x1="948" y1="191.0" x2="971" y2="191.0" class="ln" marker-end="url(#a)"/>
+<rect x="972" y="96" width="214" height="190" rx="6" class="bx"/>
+<text x="984" y="124" class="t h2" text-anchor="start">5  Image of the film</text>
+<text x="984" y="145" class="t" text-anchor="start">The film's</text>
+<text x="984" y="166" class="t" text-anchor="start">cinematography</text>
+<text x="984" y="187" class="t" text-anchor="start">starts from these</text>
+<text x="984" y="208" class="t" text-anchor="start">scans</text>
+<text x="16" y="324" class="t" text-anchor="start">One take, slow camera move: each frame is a new viewpoint that overlaps the one before</text>
+<line x1="40" y1="418" x2="1170" y2="418" class="lnr" marker-end="url(#ar)"/>
+<rect x="60" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="104" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="148" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="192" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="236" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="280" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="324" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="368" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="412" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="456" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="500" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="544" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="588" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="632" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="676" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="720" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="764" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="808" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="852" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="896" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="940" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="984" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="1028" y="358" width="66" height="44" rx="2" class="bxr"/>
+<rect x="1072" y="358" width="66" height="44" rx="2" class="bxr"/>
+<text x="16" y="450" class="mu" text-anchor="start">Drawing only: it does not show the real number or spacing of the frames.</text>
+</svg>

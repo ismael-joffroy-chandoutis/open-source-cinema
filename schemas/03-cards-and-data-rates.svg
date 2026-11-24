@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 781" width="1200" height="781" role="img" aria-labelledby="title desc">
+<title id="title">Data rates of 14-bit RAW against card write speeds</title>
+<desc id="desc">Horizontal bars on one scale in MB/s. Recording at 24 fps in 14-bit uncompressed asks for 103 MB/s at 1920 x 1280, 97 at 1920 x 1200 and 87 at 1920 x 1080; lossless asks for about half, depending on the scene. Cards while recording: SD at the stock clock about 20 MB/s, overclocked SD about 80 MB/s, CF and SD together about 145 MB/s; no sourced figure for the CF card alone, measure your own card. Vertical lines at 80 and 145 MB/s show that uncompressed needs both cards while lossless fits with margin.</desc>
+<style>text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px}.h1{font-size:22px;font-weight:600}.h2{font-size:16px;font-weight:600}.b{font-weight:600}.s15{font-size:15px}.t{fill:#1f2328}.mu{fill:#59636e}.raw{fill:#c2410c}.px{fill:#0969da}.bx{fill:none;stroke:#6e7781;stroke-width:1.5}.bxr{fill:#c2410c;fill-opacity:.08;stroke:#c2410c;stroke-width:1.75}.bxp{fill:#0969da;fill-opacity:.08;stroke:#0969da;stroke-width:1.75}.bxd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#6e7781;stroke-width:1.5}.lnr{fill:none;stroke:#c2410c;stroke-width:2}.lnp{fill:none;stroke:#0969da;stroke-width:2}.lnd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#d0d7de;stroke-width:1}.fr{fill:#c2410c;fill-opacity:.22;stroke:#c2410c;stroke-width:1.5}.frs{fill:#c2410c}.frl{fill:#c2410c;fill-opacity:.45}.fn{fill:#6e7781}.fp{fill:#0969da}.ah{fill:#6e7781}.ahr{fill:#c2410c}.ahp{fill:#0969da}@media (prefers-color-scheme: dark){.t{fill:#e6edf3}.mu{fill:#9198a1}.raw{fill:#ff8a4c}.px{fill:#58a6ff}.bx{fill:none;stroke:#8b949e;stroke-width:1.5}.bxr{fill:#ff8a4c;fill-opacity:.08;stroke:#ff8a4c;stroke-width:1.75}.bxp{fill:#58a6ff;fill-opacity:.08;stroke:#58a6ff;stroke-width:1.75}.bxd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#8b949e;stroke-width:1.5}.lnr{fill:none;stroke:#ff8a4c;stroke-width:2}.lnp{fill:none;stroke:#58a6ff;stroke-width:2}.lnd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#3d444d;stroke-width:1}.fr{fill:#ff8a4c;fill-opacity:.22;stroke:#ff8a4c;stroke-width:1.5}.frs{fill:#ff8a4c}.frl{fill:#ff8a4c;fill-opacity:.45}.fn{fill:#8b949e}.fp{fill:#58a6ff}.ah{fill:#8b949e}.ahr{fill:#ff8a4c}.ahp{fill:#58a6ff}}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahr" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahp" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+<text x="16" y="34" class="t h1" text-anchor="start">Why uncompressed RAW stops and lossless RAW keeps recording</text>
+<text x="16" y="58" class="mu" text-anchor="start">14-bit RAW on the 5D Mark III at 24 fps. Same scale for every bar, in MB/s (1 MB = 1,000,000 bytes).</text>
+<text x="16" y="114" class="t h2" text-anchor="start">What the recording asks for</text>
+<text x="16" y="136" class="mu" text-anchor="start">Lossless: about half of uncompressed, depends on the scene</text>
+<text x="16" y="168" class="t b" text-anchor="start">1920 x 1280, 3:2</text>
+<text x="150" y="168" class="mu" text-anchor="start">uncompressed</text>
+<rect x="300" y="152" width="548.2" height="22" class="frs"/>
+<text x="856.25" y="168" class="raw b" text-anchor="start">103 MB/s</text>
+<text x="150" y="198" class="mu" text-anchor="start">lossless</text>
+<rect x="300" y="182" width="274.1" height="22" class="frl"/>
+<text x="582.125" y="198" class="raw" text-anchor="start">about 52 MB/s</text>
+<text x="16" y="240" class="t b" text-anchor="start">1920 x 1200, 16:10</text>
+<text x="150" y="240" class="mu" text-anchor="start">uncompressed</text>
+<rect x="300" y="224" width="514.2" height="22" class="frs"/>
+<text x="822.25" y="240" class="raw b" text-anchor="start">97 MB/s</text>
+<text x="150" y="270" class="mu" text-anchor="start">lossless</text>
+<rect x="300" y="254" width="257.1" height="22" class="frl"/>
+<text x="565.125" y="270" class="raw" text-anchor="start">about 48 MB/s</text>
+<text x="16" y="312" class="t b" text-anchor="start">1920 x 1080, 16:9</text>
+<text x="150" y="312" class="mu" text-anchor="start">uncompressed</text>
+<rect x="300" y="296" width="462.7" height="22" class="frs"/>
+<text x="770.71875" y="312" class="raw b" text-anchor="start">87 MB/s</text>
+<text x="150" y="342" class="mu" text-anchor="start">lossless</text>
+<rect x="300" y="326" width="231.4" height="22" class="frl"/>
+<text x="539.359375" y="342" class="raw" text-anchor="start">about 44 MB/s</text>
+<text x="16" y="396" class="t h2" text-anchor="start">What the cards write while recording</text>
+<text x="16" y="428" class="t b" text-anchor="start">SD at Canon's clock</text>
+<rect x="300" y="412" width="106.2" height="22" class="fn"/>
+<text x="414.25" y="428" class="t b" text-anchor="start">about 20 MB/s</text>
+<text x="16" y="460" class="t b" text-anchor="start">SD overclocked</text>
+<rect x="300" y="444" width="425.0" height="22" class="fn"/>
+<text x="733.0" y="460" class="t b" text-anchor="start">about 80 MB/s</text>
+<text x="16" y="492" class="t b" text-anchor="start">CF + SD together</text>
+<rect x="300" y="476" width="770.3" height="22" class="fn"/>
+<text x="1078.3125" y="492" class="t b" text-anchor="start">about 145 MB/s</text>
+<text x="16" y="524" class="t b" text-anchor="start">CF alone</text>
+<rect x="300" y="508" width="850" height="22" rx="3" class="bxd"/>
+<text x="312" y="524" class="t" text-anchor="start">CF alone: measure your card (no sourced figure)</text>
+<line x1="725.0" y1="122" x2="725.0" y2="540" class="lnd"/>
+<text x="725.0" y="114" class="t b" text-anchor="middle">SD overclocked, 80</text>
+<line x1="1070.3" y1="122" x2="1070.3" y2="540" class="lnd"/>
+<text x="1070.3125" y="114" class="t b" text-anchor="middle">CF + SD, 145</text>
+<line x1="300" y1="554" x2="1150" y2="554" class="ln"/>
+<line x1="300.0" y1="554" x2="300.0" y2="560" class="ln"/>
+<text x="300.0" y="578" class="mu" text-anchor="middle">0</text>
+<line x1="406.2" y1="554" x2="406.2" y2="560" class="ln"/>
+<text x="406.25" y="578" class="mu" text-anchor="middle">20</text>
+<line x1="512.5" y1="554" x2="512.5" y2="560" class="ln"/>
+<text x="512.5" y="578" class="mu" text-anchor="middle">40</text>
+<line x1="618.8" y1="554" x2="618.8" y2="560" class="ln"/>
+<text x="618.75" y="578" class="mu" text-anchor="middle">60</text>
+<line x1="725.0" y1="554" x2="725.0" y2="560" class="ln"/>
+<text x="725.0" y="578" class="mu" text-anchor="middle">80</text>
+<line x1="831.2" y1="554" x2="831.2" y2="560" class="ln"/>
+<text x="831.25" y="578" class="mu" text-anchor="middle">100</text>
+<line x1="937.5" y1="554" x2="937.5" y2="560" class="ln"/>
+<text x="937.5" y="578" class="mu" text-anchor="middle">120</text>
+<line x1="1043.8" y1="554" x2="1043.8" y2="560" class="ln"/>
+<text x="1043.75" y="578" class="mu" text-anchor="middle">140</text>
+<line x1="1150.0" y1="554" x2="1150.0" y2="560" class="ln"/>
+<text x="1150.0" y="578" class="mu" text-anchor="middle">160</text>
+<text x="1150" y="600" class="mu" text-anchor="end">MB/s</text>
+<text x="16" y="630" class="t" text-anchor="start">Reading it: uncompressed 14-bit asks for 87 to 103 MB/s, more than one overclocked SD card writes; only the two cards together</text>
+<text x="16" y="651" class="t" text-anchor="start">clear it with margin. Lossless asks for about half, below the overclocked SD figure.</text>
+<text x="16" y="672" class="t" text-anchor="start">Field notes (Magic Lantern forum, 2018): 14-bit lossless 1920 x 1080 at 23.976 fps ran continuously on a 1000x 64 GB CF card,</text>
+<text x="16" y="693" class="t" text-anchor="start">with the H.264 proxy on SD; a 64 GB CF card held about 25 minutes of 14-bit lossless.</text>
+<text x="16" y="714" class="mu" text-anchor="start">Sources: recording rates = width x height x 14 bits x 24 fps. SD overclocked, about 80 MB/s while recording: Walter Schulz,</text>
+<text x="16" y="735" class="mu" text-anchor="start">Magic Lantern forum, 7 Feb 2024 (bench tests show more). SD stock, about 20 MB/s: Magic Lantern forum, 2018. CF + SD, about 145 MB/s:</text>
+<text x="16" y="756" class="mu" text-anchor="start">Magic Lantern forum, SD overclocking thread. Lossless ratio varies with ISO, detail and noise in the shot.</text>
+</svg>

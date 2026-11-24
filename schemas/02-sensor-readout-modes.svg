@@ -1,0 +1,293 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 649" width="1200" height="649" role="img" aria-labelledby="title desc">
+<title id="title">Canon 5D Mark III sensor readout modes</title>
+<desc id="desc">Three drawings of the 5760 x 3840 sensor at the same scale. 3x3 binning reads the whole sensor and groups each 3 by 3 block of photosites into one pixel: 1920 x 1280, crop factor 1x, minimal aliasing. 1x3 binning reads every line and groups three columns into one pixel, so the image is squeezed horizontally and is stretched three times in post; the 5.7K preset reads an area of about 5425 x 2300, crop factor about 1.06x, no line skipping. 1:1 crop reads every photosite of a 1920 x 1080 window at the centre: crop factor 3x, no aliasing.</desc>
+<style>text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px}.h1{font-size:22px;font-weight:600}.h2{font-size:16px;font-weight:600}.b{font-weight:600}.s15{font-size:15px}.t{fill:#1f2328}.mu{fill:#59636e}.raw{fill:#c2410c}.px{fill:#0969da}.bx{fill:none;stroke:#6e7781;stroke-width:1.5}.bxr{fill:#c2410c;fill-opacity:.08;stroke:#c2410c;stroke-width:1.75}.bxp{fill:#0969da;fill-opacity:.08;stroke:#0969da;stroke-width:1.75}.bxd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#6e7781;stroke-width:1.5}.lnr{fill:none;stroke:#c2410c;stroke-width:2}.lnp{fill:none;stroke:#0969da;stroke-width:2}.lnd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#d0d7de;stroke-width:1}.fr{fill:#c2410c;fill-opacity:.22;stroke:#c2410c;stroke-width:1.5}.frs{fill:#c2410c}.frl{fill:#c2410c;fill-opacity:.45}.fn{fill:#6e7781}.fp{fill:#0969da}.ah{fill:#6e7781}.ahr{fill:#c2410c}.ahp{fill:#0969da}@media (prefers-color-scheme: dark){.t{fill:#e6edf3}.mu{fill:#9198a1}.raw{fill:#ff8a4c}.px{fill:#58a6ff}.bx{fill:none;stroke:#8b949e;stroke-width:1.5}.bxr{fill:#ff8a4c;fill-opacity:.08;stroke:#ff8a4c;stroke-width:1.75}.bxp{fill:#58a6ff;fill-opacity:.08;stroke:#58a6ff;stroke-width:1.75}.bxd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#8b949e;stroke-width:1.5}.lnr{fill:none;stroke:#ff8a4c;stroke-width:2}.lnp{fill:none;stroke:#58a6ff;stroke-width:2}.lnd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#3d444d;stroke-width:1}.fr{fill:#ff8a4c;fill-opacity:.22;stroke:#ff8a4c;stroke-width:1.5}.frs{fill:#ff8a4c}.frl{fill:#ff8a4c;fill-opacity:.45}.fn{fill:#8b949e}.fp{fill:#58a6ff}.ah{fill:#8b949e}.ahr{fill:#ff8a4c}.ahp{fill:#58a6ff}}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahr" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahp" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+<text x="16" y="34" class="t h1" text-anchor="start">Canon 5D Mark III sensor: three ways to read it for video</text>
+<text x="16" y="58" class="mu" text-anchor="start">Each outline is the full sensor, 5760 x 3840 photosites, drawn to scale. Filled area = photosites read.</text>
+<text x="16" y="100" class="t h2" text-anchor="start">3x3 binning</text>
+<rect x="16" y="116" width="12" height="12" class="gr"/>
+<rect x="28" y="116" width="12" height="12" class="gr"/>
+<rect x="40" y="116" width="12" height="12" class="gr"/>
+<rect x="52" y="116" width="12" height="12" class="gr"/>
+<rect x="64" y="116" width="12" height="12" class="gr"/>
+<rect x="76" y="116" width="12" height="12" class="gr"/>
+<rect x="88" y="116" width="12" height="12" class="gr"/>
+<rect x="100" y="116" width="12" height="12" class="gr"/>
+<rect x="112" y="116" width="12" height="12" class="gr"/>
+<rect x="16" y="128" width="12" height="12" class="gr"/>
+<rect x="28" y="128" width="12" height="12" class="gr"/>
+<rect x="40" y="128" width="12" height="12" class="gr"/>
+<rect x="52" y="128" width="12" height="12" class="gr"/>
+<rect x="64" y="128" width="12" height="12" class="gr"/>
+<rect x="76" y="128" width="12" height="12" class="gr"/>
+<rect x="88" y="128" width="12" height="12" class="gr"/>
+<rect x="100" y="128" width="12" height="12" class="gr"/>
+<rect x="112" y="128" width="12" height="12" class="gr"/>
+<rect x="16" y="140" width="12" height="12" class="gr"/>
+<rect x="28" y="140" width="12" height="12" class="gr"/>
+<rect x="40" y="140" width="12" height="12" class="gr"/>
+<rect x="52" y="140" width="12" height="12" class="gr"/>
+<rect x="64" y="140" width="12" height="12" class="gr"/>
+<rect x="76" y="140" width="12" height="12" class="gr"/>
+<rect x="88" y="140" width="12" height="12" class="gr"/>
+<rect x="100" y="140" width="12" height="12" class="gr"/>
+<rect x="112" y="140" width="12" height="12" class="gr"/>
+<rect x="16" y="152" width="12" height="12" class="gr"/>
+<rect x="28" y="152" width="12" height="12" class="gr"/>
+<rect x="40" y="152" width="12" height="12" class="gr"/>
+<rect x="52" y="152" width="12" height="12" class="gr"/>
+<rect x="64" y="152" width="12" height="12" class="gr"/>
+<rect x="76" y="152" width="12" height="12" class="gr"/>
+<rect x="88" y="152" width="12" height="12" class="gr"/>
+<rect x="100" y="152" width="12" height="12" class="gr"/>
+<rect x="112" y="152" width="12" height="12" class="gr"/>
+<rect x="16" y="164" width="12" height="12" class="gr"/>
+<rect x="28" y="164" width="12" height="12" class="gr"/>
+<rect x="40" y="164" width="12" height="12" class="gr"/>
+<rect x="52" y="164" width="12" height="12" class="gr"/>
+<rect x="64" y="164" width="12" height="12" class="gr"/>
+<rect x="76" y="164" width="12" height="12" class="gr"/>
+<rect x="88" y="164" width="12" height="12" class="gr"/>
+<rect x="100" y="164" width="12" height="12" class="gr"/>
+<rect x="112" y="164" width="12" height="12" class="gr"/>
+<rect x="16" y="176" width="12" height="12" class="gr"/>
+<rect x="28" y="176" width="12" height="12" class="gr"/>
+<rect x="40" y="176" width="12" height="12" class="gr"/>
+<rect x="52" y="176" width="12" height="12" class="gr"/>
+<rect x="64" y="176" width="12" height="12" class="gr"/>
+<rect x="76" y="176" width="12" height="12" class="gr"/>
+<rect x="88" y="176" width="12" height="12" class="gr"/>
+<rect x="100" y="176" width="12" height="12" class="gr"/>
+<rect x="112" y="176" width="12" height="12" class="gr"/>
+<rect x="17.5" y="117.5" width="33" height="33" rx="2" class="fr"/>
+<rect x="53.5" y="117.5" width="33" height="33" rx="2" class="fr"/>
+<rect x="89.5" y="117.5" width="33" height="33" rx="2" class="fr"/>
+<rect x="17.5" y="153.5" width="33" height="33" rx="2" class="fr"/>
+<rect x="53.5" y="153.5" width="33" height="33" rx="2" class="fr"/>
+<rect x="89.5" y="153.5" width="33" height="33" rx="2" class="fr"/>
+<text x="136" y="134" class="mu" text-anchor="start">Photosites (grey)</text>
+<text x="136" y="152" class="mu" text-anchor="start">grouped into one</text>
+<text x="136" y="170" class="mu" text-anchor="start">recorded pixel</text>
+<rect x="16" y="210" width="360" height="240" rx="0" class="bx"/>
+<rect x="16.0" y="210.0" width="360.0" height="240.0" class="fr"/>
+<line x1="16" y1="228.8" x2="376" y2="228.8" class="lnd"/>
+<line x1="16" y1="431.2" x2="376" y2="431.2" class="lnd"/>
+<text x="368" y="246.75" class="t" text-anchor="end">1920 x 1080 lines</text>
+<text x="376" y="202" class="mu" text-anchor="end">sensor 5760 x 3840</text>
+<text x="16" y="480" class="t" text-anchor="start">Area read: the whole sensor</text>
+<text x="16" y="501" class="t" text-anchor="start">Each 3 x 3 block becomes one pixel</text>
+<text x="16" y="522" class="t" text-anchor="start">Recorded: 1920 x 1280 (3:2)</text>
+<text x="16" y="543" class="t" text-anchor="start">1920 x 1080 uses 3240 of the 3840 lines</text>
+<text x="16" y="564" class="t" text-anchor="start">Crop factor: 1x (full frame)</text>
+<text x="16" y="585" class="t" text-anchor="start">Aliasing: minimal</text>
+<text x="420" y="100" class="t h2" text-anchor="start">1x3 binning (anamorphic)</text>
+<rect x="420" y="116" width="12" height="12" class="gr"/>
+<rect x="432" y="116" width="12" height="12" class="gr"/>
+<rect x="444" y="116" width="12" height="12" class="gr"/>
+<rect x="456" y="116" width="12" height="12" class="gr"/>
+<rect x="468" y="116" width="12" height="12" class="gr"/>
+<rect x="480" y="116" width="12" height="12" class="gr"/>
+<rect x="492" y="116" width="12" height="12" class="gr"/>
+<rect x="504" y="116" width="12" height="12" class="gr"/>
+<rect x="516" y="116" width="12" height="12" class="gr"/>
+<rect x="420" y="128" width="12" height="12" class="gr"/>
+<rect x="432" y="128" width="12" height="12" class="gr"/>
+<rect x="444" y="128" width="12" height="12" class="gr"/>
+<rect x="456" y="128" width="12" height="12" class="gr"/>
+<rect x="468" y="128" width="12" height="12" class="gr"/>
+<rect x="480" y="128" width="12" height="12" class="gr"/>
+<rect x="492" y="128" width="12" height="12" class="gr"/>
+<rect x="504" y="128" width="12" height="12" class="gr"/>
+<rect x="516" y="128" width="12" height="12" class="gr"/>
+<rect x="420" y="140" width="12" height="12" class="gr"/>
+<rect x="432" y="140" width="12" height="12" class="gr"/>
+<rect x="444" y="140" width="12" height="12" class="gr"/>
+<rect x="456" y="140" width="12" height="12" class="gr"/>
+<rect x="468" y="140" width="12" height="12" class="gr"/>
+<rect x="480" y="140" width="12" height="12" class="gr"/>
+<rect x="492" y="140" width="12" height="12" class="gr"/>
+<rect x="504" y="140" width="12" height="12" class="gr"/>
+<rect x="516" y="140" width="12" height="12" class="gr"/>
+<rect x="420" y="152" width="12" height="12" class="gr"/>
+<rect x="432" y="152" width="12" height="12" class="gr"/>
+<rect x="444" y="152" width="12" height="12" class="gr"/>
+<rect x="456" y="152" width="12" height="12" class="gr"/>
+<rect x="468" y="152" width="12" height="12" class="gr"/>
+<rect x="480" y="152" width="12" height="12" class="gr"/>
+<rect x="492" y="152" width="12" height="12" class="gr"/>
+<rect x="504" y="152" width="12" height="12" class="gr"/>
+<rect x="516" y="152" width="12" height="12" class="gr"/>
+<rect x="420" y="164" width="12" height="12" class="gr"/>
+<rect x="432" y="164" width="12" height="12" class="gr"/>
+<rect x="444" y="164" width="12" height="12" class="gr"/>
+<rect x="456" y="164" width="12" height="12" class="gr"/>
+<rect x="468" y="164" width="12" height="12" class="gr"/>
+<rect x="480" y="164" width="12" height="12" class="gr"/>
+<rect x="492" y="164" width="12" height="12" class="gr"/>
+<rect x="504" y="164" width="12" height="12" class="gr"/>
+<rect x="516" y="164" width="12" height="12" class="gr"/>
+<rect x="420" y="176" width="12" height="12" class="gr"/>
+<rect x="432" y="176" width="12" height="12" class="gr"/>
+<rect x="444" y="176" width="12" height="12" class="gr"/>
+<rect x="456" y="176" width="12" height="12" class="gr"/>
+<rect x="468" y="176" width="12" height="12" class="gr"/>
+<rect x="480" y="176" width="12" height="12" class="gr"/>
+<rect x="492" y="176" width="12" height="12" class="gr"/>
+<rect x="504" y="176" width="12" height="12" class="gr"/>
+<rect x="516" y="176" width="12" height="12" class="gr"/>
+<rect x="421.5" y="117.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="457.5" y="117.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="493.5" y="117.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="421.5" y="129.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="457.5" y="129.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="493.5" y="129.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="421.5" y="141.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="457.5" y="141.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="493.5" y="141.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="421.5" y="153.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="457.5" y="153.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="493.5" y="153.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="421.5" y="165.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="457.5" y="165.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="493.5" y="165.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="421.5" y="177.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="457.5" y="177.5" width="33" height="9" rx="2" class="fr"/>
+<rect x="493.5" y="177.5" width="33" height="9" rx="2" class="fr"/>
+<text x="540" y="134" class="mu" text-anchor="start">Photosites (grey)</text>
+<text x="540" y="152" class="mu" text-anchor="start">grouped into one</text>
+<text x="540" y="170" class="mu" text-anchor="start">recorded pixel</text>
+<rect x="420" y="210" width="360" height="240" rx="0" class="bx"/>
+<rect x="430.5" y="258.1" width="339.1" height="143.8" class="fr"/>
+<text x="780" y="202" class="mu" text-anchor="end">sensor 5760 x 3840</text>
+<text x="420" y="480" class="t" text-anchor="start">Example: the 5.7K preset</text>
+<text x="420" y="501" class="t" text-anchor="start">Every line read; 3 columns binned</text>
+<text x="420" y="522" class="t" text-anchor="start">into one pixel</text>
+<text x="420" y="543" class="t" text-anchor="start">Recorded image is squeezed:</text>
+<text x="420" y="564" class="t" text-anchor="start">stretch x3 in post to about 5425 x 2300</text>
+<text x="420" y="585" class="t" text-anchor="start">Crop factor: about 1.06x</text>
+<text x="420" y="606" class="t" text-anchor="start">Aliasing: none (no line skipping)</text>
+<text x="824" y="100" class="t h2" text-anchor="start">1:1 crop</text>
+<rect x="824" y="116" width="12" height="12" class="gr"/>
+<rect x="836" y="116" width="12" height="12" class="gr"/>
+<rect x="848" y="116" width="12" height="12" class="gr"/>
+<rect x="860" y="116" width="12" height="12" class="gr"/>
+<rect x="872" y="116" width="12" height="12" class="gr"/>
+<rect x="884" y="116" width="12" height="12" class="gr"/>
+<rect x="896" y="116" width="12" height="12" class="gr"/>
+<rect x="908" y="116" width="12" height="12" class="gr"/>
+<rect x="920" y="116" width="12" height="12" class="gr"/>
+<rect x="824" y="128" width="12" height="12" class="gr"/>
+<rect x="836" y="128" width="12" height="12" class="gr"/>
+<rect x="848" y="128" width="12" height="12" class="gr"/>
+<rect x="860" y="128" width="12" height="12" class="gr"/>
+<rect x="872" y="128" width="12" height="12" class="gr"/>
+<rect x="884" y="128" width="12" height="12" class="gr"/>
+<rect x="896" y="128" width="12" height="12" class="gr"/>
+<rect x="908" y="128" width="12" height="12" class="gr"/>
+<rect x="920" y="128" width="12" height="12" class="gr"/>
+<rect x="824" y="140" width="12" height="12" class="gr"/>
+<rect x="836" y="140" width="12" height="12" class="gr"/>
+<rect x="848" y="140" width="12" height="12" class="gr"/>
+<rect x="860" y="140" width="12" height="12" class="gr"/>
+<rect x="872" y="140" width="12" height="12" class="gr"/>
+<rect x="884" y="140" width="12" height="12" class="gr"/>
+<rect x="896" y="140" width="12" height="12" class="gr"/>
+<rect x="908" y="140" width="12" height="12" class="gr"/>
+<rect x="920" y="140" width="12" height="12" class="gr"/>
+<rect x="824" y="152" width="12" height="12" class="gr"/>
+<rect x="836" y="152" width="12" height="12" class="gr"/>
+<rect x="848" y="152" width="12" height="12" class="gr"/>
+<rect x="860" y="152" width="12" height="12" class="gr"/>
+<rect x="872" y="152" width="12" height="12" class="gr"/>
+<rect x="884" y="152" width="12" height="12" class="gr"/>
+<rect x="896" y="152" width="12" height="12" class="gr"/>
+<rect x="908" y="152" width="12" height="12" class="gr"/>
+<rect x="920" y="152" width="12" height="12" class="gr"/>
+<rect x="824" y="164" width="12" height="12" class="gr"/>
+<rect x="836" y="164" width="12" height="12" class="gr"/>
+<rect x="848" y="164" width="12" height="12" class="gr"/>
+<rect x="860" y="164" width="12" height="12" class="gr"/>
+<rect x="872" y="164" width="12" height="12" class="gr"/>
+<rect x="884" y="164" width="12" height="12" class="gr"/>
+<rect x="896" y="164" width="12" height="12" class="gr"/>
+<rect x="908" y="164" width="12" height="12" class="gr"/>
+<rect x="920" y="164" width="12" height="12" class="gr"/>
+<rect x="824" y="176" width="12" height="12" class="gr"/>
+<rect x="836" y="176" width="12" height="12" class="gr"/>
+<rect x="848" y="176" width="12" height="12" class="gr"/>
+<rect x="860" y="176" width="12" height="12" class="gr"/>
+<rect x="872" y="176" width="12" height="12" class="gr"/>
+<rect x="884" y="176" width="12" height="12" class="gr"/>
+<rect x="896" y="176" width="12" height="12" class="gr"/>
+<rect x="908" y="176" width="12" height="12" class="gr"/>
+<rect x="920" y="176" width="12" height="12" class="gr"/>
+<rect x="825.5" y="117.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="837.5" y="117.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="849.5" y="117.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="861.5" y="117.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="873.5" y="117.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="885.5" y="117.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="897.5" y="117.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="909.5" y="117.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="921.5" y="117.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="825.5" y="129.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="837.5" y="129.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="849.5" y="129.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="861.5" y="129.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="873.5" y="129.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="885.5" y="129.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="897.5" y="129.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="909.5" y="129.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="921.5" y="129.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="825.5" y="141.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="837.5" y="141.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="849.5" y="141.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="861.5" y="141.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="873.5" y="141.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="885.5" y="141.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="897.5" y="141.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="909.5" y="141.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="921.5" y="141.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="825.5" y="153.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="837.5" y="153.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="849.5" y="153.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="861.5" y="153.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="873.5" y="153.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="885.5" y="153.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="897.5" y="153.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="909.5" y="153.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="921.5" y="153.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="825.5" y="165.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="837.5" y="165.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="849.5" y="165.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="861.5" y="165.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="873.5" y="165.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="885.5" y="165.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="897.5" y="165.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="909.5" y="165.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="921.5" y="165.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="825.5" y="177.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="837.5" y="177.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="849.5" y="177.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="861.5" y="177.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="873.5" y="177.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="885.5" y="177.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="897.5" y="177.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="909.5" y="177.5" width="9" height="9" rx="2" class="fr"/>
+<rect x="921.5" y="177.5" width="9" height="9" rx="2" class="fr"/>
+<text x="944" y="134" class="mu" text-anchor="start">Photosites (grey)</text>
+<text x="944" y="152" class="mu" text-anchor="start">grouped into one</text>
+<text x="944" y="170" class="mu" text-anchor="start">recorded pixel</text>
+<rect x="824" y="210" width="360" height="240" rx="0" class="bx"/>
+<rect x="944.0" y="296.2" width="120.0" height="67.5" class="fr"/>
+<text x="1184" y="202" class="mu" text-anchor="end">sensor 5760 x 3840</text>
+<text x="824" y="480" class="t" text-anchor="start">Area read: a window at the centre</text>
+<text x="824" y="501" class="t" text-anchor="start">Every photosite read, no binning</text>
+<text x="824" y="522" class="t" text-anchor="start">Recorded: 1920 x 1080</text>
+<text x="824" y="543" class="t" text-anchor="start">Crop factor: 3x</text>
+<text x="824" y="564" class="t" text-anchor="start">(1920 of 5760 photosites wide)</text>
+<text x="824" y="585" class="t" text-anchor="start">Aliasing: none</text>
+<text x="16" y="635" class="mu" text-anchor="start">Recorded sizes and aliasing as listed in chapter 02; crop factors computed from photosite counts. The 5.7K area is approximate.</text>
+</svg>

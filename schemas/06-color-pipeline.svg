@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 538" width="1200" height="538" role="img" aria-labelledby="title desc">
+<title id="title">Color pipeline from linear RAW to delivery</title>
+<desc id="desc">Linear 14-bit MLV RAW with a Bayer mosaic is corrected in MLV App, then demosaiced either by Resolve from CinemaDNG (Camera RAW tab, P3 D60 or Rec.709, BMD Film or Linear) or by MLV App, which exports ProRes in DaVinci Wide Gamut / DaVinci Intermediate. An input color space transform brings each camera into DaVinci Wide Gamut / DaVinci Intermediate, where grading happens. An optional film emulation LUT sits one node before the output transform. The output transform goes to Rec.709 gamma 2.4 for web and broadcast, or to DCI-P3 encoded as XYZ gamma 2.6 for the DCP. There is no official ACES input transform for Magic Lantern RAW.</desc>
+<style>text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px}.h1{font-size:22px;font-weight:600}.h2{font-size:16px;font-weight:600}.b{font-weight:600}.s15{font-size:15px}.t{fill:#1f2328}.mu{fill:#59636e}.raw{fill:#c2410c}.px{fill:#0969da}.bx{fill:none;stroke:#6e7781;stroke-width:1.5}.bxr{fill:#c2410c;fill-opacity:.08;stroke:#c2410c;stroke-width:1.75}.bxp{fill:#0969da;fill-opacity:.08;stroke:#0969da;stroke-width:1.75}.bxd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#6e7781;stroke-width:1.5}.lnr{fill:none;stroke:#c2410c;stroke-width:2}.lnp{fill:none;stroke:#0969da;stroke-width:2}.lnd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#d0d7de;stroke-width:1}.fr{fill:#c2410c;fill-opacity:.22;stroke:#c2410c;stroke-width:1.5}.frs{fill:#c2410c}.frl{fill:#c2410c;fill-opacity:.45}.fn{fill:#6e7781}.fp{fill:#0969da}.ah{fill:#6e7781}.ahr{fill:#c2410c}.ahp{fill:#0969da}@media (prefers-color-scheme: dark){.t{fill:#e6edf3}.mu{fill:#9198a1}.raw{fill:#ff8a4c}.px{fill:#58a6ff}.bx{fill:none;stroke:#8b949e;stroke-width:1.5}.bxr{fill:#ff8a4c;fill-opacity:.08;stroke:#ff8a4c;stroke-width:1.75}.bxp{fill:#58a6ff;fill-opacity:.08;stroke:#58a6ff;stroke-width:1.75}.bxd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#8b949e;stroke-width:1.5}.lnr{fill:none;stroke:#ff8a4c;stroke-width:2}.lnp{fill:none;stroke:#58a6ff;stroke-width:2}.lnd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#3d444d;stroke-width:1}.fr{fill:#ff8a4c;fill-opacity:.22;stroke:#ff8a4c;stroke-width:1.5}.frs{fill:#ff8a4c}.frl{fill:#ff8a4c;fill-opacity:.45}.fn{fill:#8b949e}.fp{fill:#58a6ff}.ah{fill:#8b949e}.ahr{fill:#ff8a4c}.ahp{fill:#58a6ff}}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahr" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahp" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+<text x="16" y="34" class="t h1" text-anchor="start">Color pipeline: from linear RAW to the screen</text>
+<text x="16" y="58" class="mu" text-anchor="start">DaVinci Resolve, DaVinci YRGB with color space transforms (CST) set by hand</text>
+<path d="M406,136 L406,124 L978,124 L978,136" class="lnr"/>
+<text x="692.0" y="114" class="raw b" text-anchor="middle">Working space: DaVinci Wide Gamut / DaVinci Intermediate</text>
+<rect x="16" y="150" width="182" height="230" rx="6" class="bxr"/>
+<text x="26" y="176" class="raw b s15" text-anchor="start">1  RAW</text>
+<text x="26" y="197" class="t" text-anchor="start">MLV, 14-bit</text>
+<text x="26" y="218" class="t" text-anchor="start">Linear light</text>
+<text x="26" y="239" class="t" text-anchor="start">Bayer mosaic: one</text>
+<text x="26" y="260" class="t" text-anchor="start">color per photosite</text>
+<text x="26" y="281" class="t" text-anchor="start">Raw fixes in MLV App:</text>
+<text x="26" y="302" class="t" text-anchor="start">focus and bad pixels,</text>
+<text x="26" y="323" class="t" text-anchor="start">stripes, dark frame</text>
+<line x1="199" y1="265.0" x2="210" y2="265.0" class="ln" marker-end="url(#a)"/>
+<rect x="211" y="150" width="182" height="270" rx="6" class="bx"/>
+<text x="221" y="176" class="t b s15" text-anchor="start">2  Demosaic</text>
+<text x="221" y="196" class="t" text-anchor="start">Route A: CinemaDNG</text>
+<text x="221" y="216" class="t" text-anchor="start">keeps the mosaic;</text>
+<text x="221" y="236" class="t" text-anchor="start">Resolve's Camera RAW</text>
+<text x="221" y="256" class="t" text-anchor="start">tab demosaics (P3 D60</text>
+<text x="221" y="276" class="t" text-anchor="start">or Rec.709, BMD Film</text>
+<text x="221" y="296" class="t" text-anchor="start">or Linear)</text>
+<text x="221" y="316" class="t" text-anchor="start">Route B: MLV App</text>
+<text x="221" y="336" class="t" text-anchor="start">demosaics (AMaZE,</text>
+<text x="221" y="356" class="t" text-anchor="start">IGV, LMMSE), exports</text>
+<text x="221" y="376" class="t" text-anchor="start">ProRes in DWG / DI</text>
+<line x1="394" y1="265.0" x2="405" y2="265.0" class="lnr" marker-end="url(#ar)"/>
+<rect x="406" y="150" width="182" height="230" rx="6" class="bxr"/>
+<text x="416" y="176" class="raw b s15" text-anchor="start">3  Input transform</text>
+<text x="416" y="197" class="t" text-anchor="start">Group pre-clip CST:</text>
+<text x="416" y="218" class="t" text-anchor="start">camera space to</text>
+<text x="416" y="239" class="t" text-anchor="start">DaVinci Wide Gamut /</text>
+<text x="416" y="260" class="t" text-anchor="start">DaVinci Intermediate</text>
+<text x="416" y="281" class="t" text-anchor="start">Tone mapping: none</text>
+<text x="416" y="302" class="t" text-anchor="start">Route B is already</text>
+<text x="416" y="323" class="t" text-anchor="start">in DWG / DI</text>
+<line x1="589" y1="265.0" x2="600" y2="265.0" class="lnr" marker-end="url(#ar)"/>
+<rect x="601" y="150" width="182" height="230" rx="6" class="bxr"/>
+<text x="611" y="176" class="raw b s15" text-anchor="start">4  Grade</text>
+<text x="611" y="197" class="t" text-anchor="start">Primaries</text>
+<text x="611" y="218" class="t" text-anchor="start">Creative look</text>
+<text x="611" y="239" class="t" text-anchor="start">Secondaries</text>
+<text x="611" y="260" class="t" text-anchor="start">Windows, tracking</text>
+<text x="611" y="281" class="t" text-anchor="start">Grain, texture</text>
+<line x1="784" y1="265.0" x2="795" y2="265.0" class="lnr" marker-end="url(#ar)"/>
+<rect x="796" y="150" width="182" height="230" rx="6" class="bxd"/>
+<text x="806" y="176" class="t b s15" text-anchor="start">5  Film LUT</text>
+<text x="806" y="197" class="t" text-anchor="start">Optional film</text>
+<text x="806" y="218" class="t" text-anchor="start">emulation LUT,</text>
+<text x="806" y="239" class="t" text-anchor="start">one node before the</text>
+<text x="806" y="260" class="t" text-anchor="start">output transform;</text>
+<text x="806" y="281" class="t" text-anchor="start">use LUTs made for</text>
+<text x="806" y="302" class="t" text-anchor="start">DWG / DI input</text>
+<rect x="1012" y="144" width="172" height="120" rx="6" class="bx"/>
+<text x="1022" y="170" class="t b s15" text-anchor="start">6a  Web, broadcast</text>
+<text x="1022" y="189" class="t" text-anchor="start">Output CST:</text>
+<text x="1022" y="208" class="t" text-anchor="start">DWG / DI to</text>
+<text x="1022" y="227" class="t" text-anchor="start">Rec.709, gamma 2.4</text>
+<rect x="1012" y="306" width="172" height="120" rx="6" class="bx"/>
+<text x="1022" y="332" class="t b s15" text-anchor="start">6b  Cinema (DCP)</text>
+<text x="1022" y="351" class="t" text-anchor="start">DCI-P3, encoded</text>
+<text x="1022" y="370" class="t" text-anchor="start">to XYZ, gamma 2.6</text>
+<text x="1022" y="389" class="t" text-anchor="start">by Resolve Studio</text>
+<path d="M979,265.0 L993,265.0 L993,204.0 L1011,204.0" class="ln" marker-end="url(#a)"/>
+<path d="M993,265.0 L993,366.0 L1011,366.0" class="ln" marker-end="url(#a)"/>
+<text x="16" y="470" class="t" text-anchor="start">There is no official ACES input transform for Magic Lantern RAW, so the input transform is a CST set by hand.</text>
+<text x="16" y="492" class="t" text-anchor="start">Other cameras (Blackmagic, RED, ARRI) join the same working space through their own input CST, so all shots grade alike.</text>
+<text x="16" y="514" class="t" text-anchor="start">Archive master: ProRes 4444 or TIFF, kept in DWG / DI.</text>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 713" width="1200" height="713" role="img" aria-labelledby="title desc">
+<title id="title">Proxy and conform workflow</title>
+<desc id="desc">Two parallel lanes from the camera. RAW lane: MLV 14-bit lossless on the CF card, converted to CinemaDNG by Switch or MLV App, waits on the drives until picture lock, then DaVinci Resolve imports the FCPXML and relinks each shot to the CinemaDNG by timecode, then grading on the RAW. Proxy lane: H.264 with sound on the SD card; Switch cuts the black frames and resets the timecode to zero without re-encoding; the edit is done in Final Cut Pro and exported as FCPXML. Notes: in August 2017 the proxy sound ran about 2 seconds off, irregularly. mlv_lite records no proxy when the RAW is wider than 2080 pixels or in x5 zoom. Conform by timecode was diagnosed on 1 September 2017, worked on 2 September, and a proxy-only mode was tested on 4 September.</desc>
+<style>text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px}.h1{font-size:22px;font-weight:600}.h2{font-size:16px;font-weight:600}.b{font-weight:600}.s15{font-size:15px}.t{fill:#1f2328}.mu{fill:#59636e}.raw{fill:#c2410c}.px{fill:#0969da}.bx{fill:none;stroke:#6e7781;stroke-width:1.5}.bxr{fill:#c2410c;fill-opacity:.08;stroke:#c2410c;stroke-width:1.75}.bxp{fill:#0969da;fill-opacity:.08;stroke:#0969da;stroke-width:1.75}.bxd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#6e7781;stroke-width:1.5}.lnr{fill:none;stroke:#c2410c;stroke-width:2}.lnp{fill:none;stroke:#0969da;stroke-width:2}.lnd{fill:none;stroke:#6e7781;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#d0d7de;stroke-width:1}.fr{fill:#c2410c;fill-opacity:.22;stroke:#c2410c;stroke-width:1.5}.frs{fill:#c2410c}.frl{fill:#c2410c;fill-opacity:.45}.fn{fill:#6e7781}.fp{fill:#0969da}.ah{fill:#6e7781}.ahr{fill:#c2410c}.ahp{fill:#0969da}@media (prefers-color-scheme: dark){.t{fill:#e6edf3}.mu{fill:#9198a1}.raw{fill:#ff8a4c}.px{fill:#58a6ff}.bx{fill:none;stroke:#8b949e;stroke-width:1.5}.bxr{fill:#ff8a4c;fill-opacity:.08;stroke:#ff8a4c;stroke-width:1.75}.bxp{fill:#58a6ff;fill-opacity:.08;stroke:#58a6ff;stroke-width:1.75}.bxd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:6 4}.ln{fill:none;stroke:#8b949e;stroke-width:1.5}.lnr{fill:none;stroke:#ff8a4c;stroke-width:2}.lnp{fill:none;stroke:#58a6ff;stroke-width:2}.lnd{fill:none;stroke:#8b949e;stroke-width:1.5;stroke-dasharray:5 4}.gr{fill:none;stroke:#3d444d;stroke-width:1}.fr{fill:#ff8a4c;fill-opacity:.22;stroke:#ff8a4c;stroke-width:1.5}.frs{fill:#ff8a4c}.frl{fill:#ff8a4c;fill-opacity:.45}.fn{fill:#8b949e}.fp{fill:#58a6ff}.ah{fill:#8b949e}.ahr{fill:#ff8a4c}.ahp{fill:#58a6ff}}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahr" d="M0,0 L10,5 L0,10 z"/></marker><marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ahp" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+<text x="16" y="34" class="t h1" text-anchor="start">Proxy and conform: edit light, finish on the RAW</text>
+<text x="16" y="58" class="mu" text-anchor="start">One take writes two files at once. The proxy is cut; the RAW replaces it at the end, shot by shot, by timecode.</text>
+<rect x="840" y="23" width="22" height="12" rx="2" class="bxr"/>
+<text x="870" y="34" class="t" text-anchor="start">RAW (MLV, CinemaDNG)</text>
+<rect x="1055" y="23" width="22" height="12" rx="2" class="bxp"/>
+<text x="1085" y="34" class="t" text-anchor="start">Proxy (H.264)</text>
+<rect x="16" y="175" width="128" height="210" rx="6" class="bx"/>
+<text x="28" y="205" class="t b" text-anchor="start">Canon</text>
+<text x="28" y="225" class="t b" text-anchor="start">5D Mark III</text>
+<text x="28" y="245" class="t" text-anchor="start">Magic Lantern</text>
+<text x="28" y="265" class="t" text-anchor="start">mlv_lite with</text>
+<text x="28" y="285" class="t" text-anchor="start">H.264 proxy</text>
+<text x="28" y="305" class="t" text-anchor="start">enabled</text>
+<rect x="178" y="120" width="170" height="110" rx="6" class="bxr"/>
+<text x="188" y="146" class="raw b" text-anchor="start">RAW on CF</text>
+<text x="188" y="165" class="t" text-anchor="start">MLV, 14-bit</text>
+<text x="188" y="184" class="t" text-anchor="start">lossless</text>
+<text x="188" y="203" class="t" text-anchor="start">always on CF</text>
+<rect x="378" y="120" width="200" height="110" rx="6" class="bxr"/>
+<text x="388" y="146" class="raw b" text-anchor="start">MLV to CinemaDNG</text>
+<text x="388" y="165" class="t" text-anchor="start">Switch or MLV App</text>
+<text x="388" y="184" class="t" text-anchor="start">timecode and name</text>
+<text x="388" y="203" class="t" text-anchor="start">kept per shot</text>
+<rect x="818" y="120" width="186" height="110" rx="6" class="bxr"/>
+<text x="828" y="146" class="raw b" text-anchor="start">Conform</text>
+<text x="828" y="165" class="t" text-anchor="start">DaVinci Resolve</text>
+<text x="828" y="184" class="t" text-anchor="start">imports FCPXML,</text>
+<text x="828" y="203" class="t" text-anchor="start">relinks to CinemaDNG</text>
+<rect x="1034" y="120" width="150" height="110" rx="6" class="bxr"/>
+<text x="1044" y="146" class="raw b" text-anchor="start">Grade</text>
+<text x="1044" y="165" class="t" text-anchor="start">on the RAW,</text>
+<text x="1044" y="184" class="t" text-anchor="start">full resolution</text>
+<rect x="178" y="330" width="170" height="110" rx="6" class="bxp"/>
+<text x="188" y="356" class="px b" text-anchor="start">Proxy on SD</text>
+<text x="188" y="375" class="t" text-anchor="start">H.264 with sound,</text>
+<text x="188" y="394" class="t" text-anchor="start">recorded with</text>
+<text x="188" y="413" class="t" text-anchor="start">the RAW</text>
+<rect x="378" y="330" width="200" height="110" rx="6" class="bxp"/>
+<text x="388" y="356" class="px b" text-anchor="start">Switch</text>
+<text x="388" y="375" class="t" text-anchor="start">cuts black frames,</text>
+<text x="388" y="394" class="t" text-anchor="start">resets timecode to 0,</text>
+<text x="388" y="413" class="t" text-anchor="start">no re-encode</text>
+<rect x="608" y="330" width="180" height="110" rx="6" class="bxp"/>
+<text x="618" y="356" class="px b" text-anchor="start">Edit</text>
+<text x="618" y="375" class="t" text-anchor="start">Final Cut Pro,</text>
+<text x="618" y="394" class="t" text-anchor="start">on a laptop</text>
+<text x="618" y="413" class="t" text-anchor="start">Export FCPXML</text>
+<rect x="608" y="140" width="180" height="70" rx="6" class="bxd"/>
+<text x="698.0" y="170" class="mu" text-anchor="middle">waits on the drives</text>
+<text x="698.0" y="189" class="mu" text-anchor="middle">until picture lock</text>
+<path d="M144,230 L160,230 L160,175.0 L177,175.0" class="lnr" marker-end="url(#ar)"/>
+<path d="M144,330 L160,330 L160,385.0 L177,385.0" class="lnp" marker-end="url(#ap)"/>
+<line x1="349" y1="175.0" x2="377" y2="175.0" class="lnr" marker-end="url(#ar)"/>
+<line x1="579" y1="175.0" x2="607" y2="175.0" class="lnd"/>
+<line x1="789" y1="175.0" x2="817" y2="175.0" class="lnr" marker-end="url(#ar)"/>
+<line x1="1005" y1="175.0" x2="1033" y2="175.0" class="lnr" marker-end="url(#ar)"/>
+<line x1="349" y1="385.0" x2="377" y2="385.0" class="lnp" marker-end="url(#ap)"/>
+<line x1="579" y1="385.0" x2="607" y2="385.0" class="lnp" marker-end="url(#ap)"/>
+<path d="M789,385.0 L878,385.0 L878,232" class="lnp" marker-end="url(#ap)"/>
+<text x="888" y="310.0" class="px b" text-anchor="start">FCPXML:</text>
+<text x="888" y="329.0" class="px b" text-anchor="start">the cut, with</text>
+<text x="888" y="348.0" class="px b" text-anchor="start">timecodes</text>
+<text x="16" y="484" class="t b" text-anchor="start">Sound</text>
+<text x="16" y="506" class="t" text-anchor="start">August 2017 test: the proxy's sound ran about 2 seconds off the RAW, and not by a constant amount.</text>
+<text x="16" y="525" class="t" text-anchor="start">Black frames written into the proxy keep it in step with the RAW; Switch removes them before the edit.</text>
+<text x="16" y="564" class="t b" text-anchor="start">Proxy limits in mlv_lite</text>
+<text x="16" y="586" class="t" text-anchor="start">No proxy when the RAW is wider than 2080 pixels, and none in x5 zoom. The RAW always goes to the CF card.</text>
+<text x="16" y="622" class="t b" text-anchor="start">Conform by timecode, September 2017</text>
+<text x="16" y="644" class="t" text-anchor="start">1 Sep: CinemaDNG files started at 00:00:00:00, the proxies at 19:44:38:03, so the relink failed; a nine-step conform procedure is written.</text>
+<text x="16" y="663" class="t" text-anchor="start">2 Sep: with the proxy timecode reset to zero in Switch, timecode and names match and the conform works in Resolve.</text>
+<text x="16" y="682" class="t" text-anchor="start">4 Sep: a proxy-only mode in Switch (reset timecode without making CinemaDNG) is tested on a batch and works.</text>
+</svg>
