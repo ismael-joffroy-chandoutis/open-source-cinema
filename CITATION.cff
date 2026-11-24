@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use or cite this work, please credit it as below."
 title: "open-source-cinema"
-abstract: "The whole chain of a film with open tools, from Magic Lantern RAW on the 5D Mark III to the DCP: what I have shot with, and what I test."
+abstract: "Making a film from writing to archive with open tools, at low cost, and where each step stands."
 type: dataset
 authors:
   - given-names: "Ismaël"
