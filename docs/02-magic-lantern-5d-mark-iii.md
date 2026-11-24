@@ -71,12 +71,15 @@ The data rate column is calculated, not measured: width × height × bit depth �
 | Mode | Resolution | Recorded as | 14-bit uncompressed, 24 fps | Preview on the camera | Group |
 |---|---|---|---|---|---|
 | 1080p full frame | 1920x1080 | 14-bit lossless, 24 fps | 87 MB/s | Colour, real time | What I have shot with |
-| 16:10 full frame | 1920x1200 | 14-bit lossless, 24 fps | 97 MB/s | Colour, real time | What I have shot with |
-| 3:2 full frame | 1920x1280 | 14-bit lossless, 24 fps | 103 MB/s | Colour, real time | Reliable, on my test list |
+| 3:2 full frame | 1920x1280 | 14-bit lossless, 24 fps | 103 MB/s | Colour, real time | What I have shot with |
 | 1080p 45/48 | 1920x1080 | lower bit depth or lossless | 87 MB/s (174 MB/s at 48 fps) | Limited | Reliable, on my test list |
 | 3.5K crop | 3584x1320 | 10-bit lossless | 199 MB/s (142 MB/s in 10-bit) | Slow, greyscale | Reliable, on my test list |
-| 5.7K anamorphic | 1x3 binning, stretched in post | 10-bit lossless | not calculated | Slow, greyscale, framing offset | Not ready |
+| 5.7K anamorphic | 1920x2340 (1x3 binning), stretched to 5760x2340 in post | 12-bit lossless, on both cards | 89 to 114 MB/s measured by masc in 12-bit lossless | Slow, greyscale | Reliable, on my test list |
 | Full sensor | 5760x3840 | 14-bit | not usable as video | None | Not ready |
+
+The 3.5K line uses the size from my notes. Sergio Russo shows 3584x1730 as the largest frame of this mode, with a crop factor of 1.6 ([at 23:58](https://www.youtube.com/watch?v=Ns0OECXexK4&t=1438s)); at that size, 14-bit uncompressed is 260 MB/s.
+
+The 5.7K line comes from masc, who has shot with it since 2020: the "anamorphic" preset gives 1920x2340, 12-bit lossless with card spanning records continuously, and MLV App stretches it to 5760x2340 ([his tutorial](https://www.youtube.com/watch?v=KzNaJAztjpY), 8 October 2020). The preview while recording is the slow greyscale one, which is why I have not used it on a film yet.
 
 I tried the 3.5K mode, higher frame rates and the crop modes during the Maalbeek scans. I didn't keep them for the film ([chapter 01](01-maalbeek-photogrammetry.md)).
 
@@ -84,13 +87,13 @@ I tried the 3.5K mode, higher frame rates and the crop modes during the Maalbeek
 
 ## The 3:2 mode
 
-3:2 is the native ratio of the sensor. At 1920 wide, 3:2 is **1920x1280**. 1920x1200 is a 16:10 frame, not 3:2. I have shot in 1920x1200; whether I also used 1920x1280 is a point I still have to check in my files.
+3:2 is the native ratio of the sensor. At 1920 wide, the Magic Lantern menu gives **1920x1280** in 3:2, 1920x1152 in 5:3 and 1920x1080 in 16:9 (the list of ratios is in [mlv_lite.c](https://github.com/reticulatedpines/magiclantern_simplified/blob/cb1783df88de6634f2e480658e0d34a227b29f22/modules/raw_video/mlv_lite/mlv_lite.c#L118-L123)). This is the mode of the Maalbeek scans. In older texts I wrote 1920x1200 for it. That size is not in the menu.
 
 What I can say about 3:2 today:
 
 - **Full frame, 3x3 binning, colour preview.** Like the 1080p mode, it keeps the full width of the sensor and a real-time colour image on the camera screen.
-- **Continuous on a single CF card is not confirmed.** Uncompressed, 1920x1280 at 14 bits and 24 fps needs 103 MB/s. With lossless compression it needs less, but how long the camera records on the CF alone has to be measured. It's on my [test list](06-outlook-and-test-list.md).
-- **HDMI output in this mode is not confirmed.** I have not recorded 3:2 with an external monitor plugged in. This is on my test list too.
+- **Continuous recording is reported, and I still have to measure it.** Uncompressed, 1920x1280 at 14 bits and 24 fps needs 103 MB/s; lossless needs less. Sergio Russo sets this mode in his tutorial and says "With this configuration, we achieve continuous recording at 14 bit" ([at 9:50](https://www.youtube.com/watch?v=Ns0OECXexK4&t=590s), September 2024). He doesn't give the card, the ISO or a duration at that point. How long my camera records on the CF alone, with my cards, is on my [test list](06-outlook-and-test-list.md).
+- **HDMI output in this mode is not confirmed.** I have not recorded 3:2 with an external monitor plugged in. In the same tutorial, Sergio Russo says that with an external monitor the camera sometimes shows an error or the image freezes, and that he then has to take the battery out ([at 30:11](https://www.youtube.com/watch?v=Ns0OECXexK4&t=1811s)). This is on my test list too.
 - **The H.264 proxy is allowed by the code.** The proxy is switched off only above 2080 pixels wide or in x5 zoom ([mlv_lite.c](https://github.com/reticulatedpines/magiclantern_simplified/blob/cb1783df88de6634f2e480658e0d34a227b29f22/modules/raw_video/mlv_lite/mlv_lite.c#L1300-L1351)). 1920x1280 is under the limit. Nobody has reported it working with the proxy yet.
 
 3:2 gives room in post: crop to 16:9 with headroom, or to 2.39:1.
@@ -99,7 +102,9 @@ What I can say about 3:2 today:
 
 The 5D Mark III has a CF slot and an SD slot.
 
-**CF.** The RAW goes on the CF. In 2018 I used a 1000x 64 GB CompactFlash for the RAW and the SD for the proxy ([#114](https://www.magiclantern.fm/forum/index.php?topic=16040.msg195587#msg195587)). The real write speed of the CF in the camera, for each mode, is something I want to measure rather than quote.
+**CF.** The RAW goes on the CF. In 2018 I used a 1000x 64 GB CompactFlash for the RAW and the SD for the proxy ([#114](https://www.magiclantern.fm/forum/index.php?topic=16040.msg195587#msg195587)). With that setup, 1920x1080 at 23.976 fps recorded continuously in 14, 12 and 10-bit lossless ([#115](https://www.magiclantern.fm/forum/index.php?topic=16040.msg195589#msg195589)). The real write speed of the CF in the camera, for each mode, is something I want to measure rather than quote.
+
+My cards are Komputerbay 1000x, 64 GB and 128 GB. My impression was that the 128 GB was the less dependable of the two, and the measurements of the time say the same. In May 2013, a forum member measured his 128 GB at 60 to 72 MB/s and his 64 GB at up to 92 MB/s ([thread 5391](https://www.magiclantern.fm/forum/index.php?topic=5391.0)), and EOSHD got 73 MB/s and 95 MB/s ([EOSHD](https://www.eoshd.com/news/which-compact-flash-cards-for-5d-mark-iii-raw-video)). Both say the speed changes a lot from one Komputerbay card to the next. In the forum's [compiled list of card speeds](https://www.magiclantern.fm/forum/index.php?topic=12630.0) (2014), the Komputerbay 64 GB 1000x is the fastest CF at 93 MB/s, and the Lexar 64 GB is above 85 MB/s. Run the card benchmark of Magic Lantern on your own card before a shoot.
 
 **SD, stock.** Canon runs the SD slot slowly. In 2018 I noted about 20 MB/s ([#112](https://www.magiclantern.fm/forum/index.php?topic=16040.msg195575#msg195575)). That is enough for the H.264 proxy, not for RAW.
 
@@ -131,7 +136,7 @@ Group: **What I have shot with** in 1080p. With 3:2: **Reliable, on my test list
 
 ## Preview and HDMI
 
-In the 3x3 binning modes (1080p, 16:10, 3:2) the camera shows a real-time colour image. In the crop modes, the preview is a slow software view in greyscale: arnaud-sintes explained in April 2024 that only the native resolution has the hardware real-time view ([thread 27168](https://www.magiclantern.fm/forum/index.php?topic=27168.0)).
+In the 3x3 binning modes (1080p and 3:2) the camera shows a real-time colour image. In the crop modes, the preview is a slow software view in greyscale: arnaud-sintes explained in April 2024 that only the native resolution has the hardware real-time view ([thread 27168](https://www.magiclantern.fm/forum/index.php?topic=27168.0)).
 
 The HDMI output is a separate problem: "HDMI output doesn't work properly on 5D3 when switching to any crop modes" (arnaud-sintes, 28 May 2023, [thread 26910](https://www.magiclantern.fm/forum/index.php?topic=26910.0)). A user was still asking for a fix on 11 February 2026.
 
@@ -159,7 +164,7 @@ The 5D3 has much less of this problem in its 3x3 binning modes.
 
 These are the test videos I send to people who start with the 5D3:
 
-- [masc's YouTube channel](https://www.youtube.com/@MaSc/videos). masc develops MLV App. For me, "all the best tests of 5.7K RAW on the Canon 5D Mark III", and also 1:1 crop in 1080p.
+- [masc's YouTube channel](https://www.youtube.com/@MaSc/videos). masc develops MLV App. For me, "all the best tests of 5.7K RAW on the Canon 5D Mark III". He shoots on a Komputerbay 1050x 64 GB CF and a SanDisk Extreme Pro SD.
 - Sergio Russo, [5D Mark III + Magic Lantern In-Depth Tutorial](https://www.youtube.com/watch?v=Ns0OECXexK4). For me, the best single video on the subject.
 - Sergio Russo, [EOS M vs 5D Mark III Magic Lantern Crop Mood](https://www.youtube.com/watch?v=O7b2m4B2eKU).
 

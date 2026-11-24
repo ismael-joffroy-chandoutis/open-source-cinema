@@ -19,7 +19,7 @@
 
 ## Who I am
 
-I'm Ismaël Joffroy Chandoutis, a filmmaker and artist based in Paris; my films move between documentary, fiction and animation. [Maalbeek](https://en.unifrance.org/movie/50347/maalbeek) (2020) premiered at the Semaine de la Critique in Cannes, won the Prix André-Martin at Annecy in 2021 and the César for Best Documentary Short Film in 2022. Swatted (2018, Le Fresnoy) received an honorary mention at Ars Electronica in 2019, [Ondes Noires](https://en.unifrance.org/movie/45236/dark-waves) (2017) won the Grand Prix in Regensburg, and Swatted and Maalbeek both qualified for the Academy Awards.
+I'm Ismaël Joffroy Chandoutis, a filmmaker and artist based in Paris; my films move between documentary, fiction and animation. [Maalbeek](https://en.unifrance.org/movie/50347/maalbeek) (2020) premiered at the Semaine de la Critique in Cannes, won the Prix André-Martin at Annecy in 2021 and the César for Best Documentary Short Film in 2022. Swatted (2018, Le Fresnoy) received an honorary mention at Ars Electronica in 2019 and qualified for the Academy Awards. [Ondes Noires](https://en.unifrance.org/movie/45236/dark-waves) (2017) won the Grand Prix in Regensburg.
 
 <img src="monde.jpg" alt="open-source-cinema" width="100%">
 
@@ -60,7 +60,7 @@ The repository was rewritten in November 2026. The old README was one long page;
 
 - Maalbeek has its own chapter. The old README named the César for Maalbeek but said nothing about how the 5D Mark III was used for the film.
 - Figures are sourced or marked. The Dual ISO dynamic range figures are my own estimates and are now written as such. Data rates are calculated and the formula is given.
-- The 3:2 mode is corrected. 1920x1280 is 3:2, 1920x1200 is 16:10. Continuous recording on the CF card alone and clean HDMI output in this mode are not confirmed, and are on the test list.
+- The 3:2 mode is corrected. At 1920 wide it is 1920x1280. The old README wrote 1920x1200, a size the Magic Lantern menu doesn't offer. Continuous recording on the CF card alone and clean HDMI output in this mode are not confirmed, and are on the test list.
 - The H.264 proxy has a full section, with my tests from 2017, the limits in the code and the firmware question.
 - My forum activity is described by what the messages show, with a link to each message. I test, report and ask; I don't develop.
 - Builds and tools are updated: Danne's release of 7 June 2025, the one official Magic Lantern release since the team came back, MLV App 1.16, and the new tools that mount MLV files for Resolve.
@@ -73,7 +73,7 @@ In November 2026, Nino Leitner wrote about this repository in [Magic Lantern for
 
 ## Editing with agents
 
-I edit in Final Cut Pro driven by agents through [SpliceKit](https://github.com/elliotttate/SpliceKit), an MCP server, and in DaVinci Resolve, which since version 21.1 [can be driven by AI assistants](https://www.blackmagicdesign.com/media/partial/release/20260908-03). I'm also building my own editing software, designed for AI and agents from the start, around two actions: cut and generate.
+I edit in Final Cut Pro driven by agents through [SpliceKit](https://github.com/elliotttate/SpliceKit), an MCP server, and in DaVinci Resolve Studio, which has come with its own MCP server since [version 21.1](https://www.blackmagicdesign.com/media/partial/release/20260908-03). I'm also building my own editing software, designed for AI and agents from the start, around two actions: cut and generate.
 
 ## Other documents in this repository
 

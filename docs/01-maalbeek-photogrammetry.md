@@ -14,7 +14,7 @@ The film uses point cloud animation, together with archive footage and CCTV imag
 
 The usual method for photogrammetry is photos on a tripod, with overlap between each photo. In the metro I didn't have the time for this and I had very few authorisations, so I filmed instead.
 
-I shot the scans in 2019, alone, on the 5D Mark III with Magic Lantern. From memory: 1920x1200 and 1920x1080, 14-bit lossless, 24 fps.
+I shot the scans in 2019, alone, on the 5D Mark III with Magic Lantern. From memory: 1920x1280 (3:2) and 1920x1080, 14-bit lossless, 24 fps.
 
 The method:
 
@@ -34,7 +34,7 @@ The point clouds were then rendered in Unity, with custom shaders written for th
 
 ## What I tried before
 
-Before the 5D Mark III, I tried a professional Insta360 camera of the time, a 360 camera with a high resolution that records a compressed codec. Even in log and with LUTs, the point cloud I got was poorer: more scattered, with less texture and less information. The RAW from the 5D Mark III was much better for this.
+Before the 5D Mark III, I tried an Insta360 Pro 2, a professional 8K 360 camera that records a compressed codec. Even in log and with LUTs, the point cloud I got was poorer: more scattered, with less texture and less information. The RAW from the 5D Mark III was much better for this.
 
 On the 5D Mark III, I also tried the 3.5K mode, higher frame rates and the crop modes. I didn't keep them for the film. The modes are described in [chapter 02](02-magic-lantern-5d-mark-iii.md).
 

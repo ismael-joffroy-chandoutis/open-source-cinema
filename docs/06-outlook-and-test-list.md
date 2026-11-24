@@ -4,7 +4,7 @@
 
 ## Where I stand
 
-In 2020 and again in 2022 I asked on the forum for a real-time preview in the 5.7K anamorphic modes of the 5D Mark III ([#201](https://www.magiclantern.fm/forum/index.php?topic=25180.msg229685#msg229685), [#211](https://www.magiclantern.fm/forum/index.php?topic=23041.msg240650#msg240650)). In 2022 the answer was that nobody was working on it ([#213](https://www.magiclantern.fm/forum/index.php?topic=23041.msg240661#msg240661)). That is still where I am. I will use the 5.7K modes more when there is a correct preview on the camera. Until then, the modes with a real-time colour image on the camera are the 3x3 binning modes (1080p, 16:10, 3:2).
+In 2020 and again in 2022 I asked on the forum for a real-time preview in the 5.7K anamorphic modes of the 5D Mark III ([#201](https://www.magiclantern.fm/forum/index.php?topic=25180.msg229685#msg229685), [#211](https://www.magiclantern.fm/forum/index.php?topic=23041.msg240650#msg240650)). In 2022 the answer was that nobody was working on it ([#213](https://www.magiclantern.fm/forum/index.php?topic=23041.msg240661#msg240661)). That is still where I am. I will use the 5.7K modes more when there is a correct preview on the camera. Until then, the modes with a real-time colour image on the camera are the 3x3 binning modes (1080p and 3:2).
 
 Dual ISO is the other open question for me. My tests in 2018 were not good with the debayering I tried ([#158](https://www.magiclantern.fm/forum/index.php?topic=19300.msg206101#msg206101)). The processing has changed since, so I want to test it again before I say anything about it.
 
@@ -37,7 +37,7 @@ None of these tests has been done yet. Each one is in the group **Reliable, on m
 
 | # | Test | What it will measure |
 |---|---|---|
-| 1 | **3:2 (1920x1280), 14-bit lossless, 24 fps, CF only** | How long the camera records before it stops, at ISO 100 and ISO 1600, with one card model. Same test in 1920x1200 to compare |
+| 1 | **3:2 (1920x1280), 14-bit lossless, 24 fps, CF only** | How long the camera records before it stops, at ISO 100 and ISO 1600, with one card model. Same test in 1920x1080 to compare |
 | 2 | **3:2 with the H.264 proxy on the SD** | Whether RAW and proxy both record continuously, the sync offset between the two, and whether the proxy framing matches the RAW. On firmware 1.2.3 and 1.1.3 |
 | 3 | **Test 2 with an HDMI monitor connected** | Whether the camera stays stable, and what the monitor shows (colour, framing, delay) |
 | 4 | **Dual ISO processed in MLV App 1.16** | On the same shot: dynamic range gained in practice, aliasing and moiré, compared with my 2018 results |
