@@ -6,7 +6,7 @@
 
 In the summer of 2017 I shot a feature documentary in India on the 5D Mark III, in RAW with Magic Lantern. I wrote on the forum from there on 13 August ([#25](https://www.magiclantern.fm/forum/index.php?topic=20025.msg188477#msg188477)) and arrived in Bangalore on 2 September ([#50](https://www.magiclantern.fm/forum/index.php?topic=15108.msg189529#msg189529)). The setup I described at the time: 14-bit compressed RAW in 1920x1080 at 24p ([#17](https://www.magiclantern.fm/forum/index.php?topic=15108.msg187677#msg187677)), with H.264 proxies with sound recorded at the same time ([#34](https://www.magiclantern.fm/forum/index.php?topic=20025.msg188610#msg188610)).
 
-I shot almost everything on a monopod, with an electronic viewfinder, with the 24-105 mm f/4 and a little with the 50 mm f/1.8. It was 40 °C some days. The camera showed its temperature warning, and it kept recording.
+I shot almost everything on a monopod, with a Cineroid electronic viewfinder, with the 24-105 mm f/4 and a little with the 50 mm f/1.8. It was 40 °C some days. The camera showed its temperature warning, and it kept recording.
 
 This shoot is the reason for the work I did with Danne that summer: edit on the proxies as soon as the cards come out of the camera, then conform on the RAW. That part is in [04-offline-online-conform-and-grading.md](04-offline-online-conform-and-grading.md). This chapter is about the camera side.
 

@@ -12,7 +12,7 @@ I worked this way with the Blackmagic Cinema Camera in 2013: CinemaDNG into Reso
 
 ## Summer 2017: a documentary in India
 
-In the summer of 2017 I shot a feature documentary in India on the 5D Mark III in RAW. I shot on a monopod with an electronic viewfinder, in heat around 40 °C. The camera showed its temperature warning and kept going. Almost everything was shot on the 24-105 mm f/4, with some shots on a 50 mm f/1.8.
+In the summer of 2017 I shot a feature documentary in India on the 5D Mark III in RAW. I shot on a monopod with a Cineroid electronic viewfinder, in heat around 40 °C. The camera showed its temperature warning and kept going. Almost everything was shot on the 24-105 mm f/4, with some shots on a 50 mm f/1.8.
 
 Before leaving, I expected about 20 hours of rushes in compressed 14-bit RAW, 1920x1080 at 24p ([#17](https://www.magiclantern.fm/forum/index.php?topic=15108.msg187677#msg187677)). Converting all of it to CinemaDNG or ProRes 4444 before the edit was too slow and needed too many drives. This shoot is what started the work with Danne that summer.
 

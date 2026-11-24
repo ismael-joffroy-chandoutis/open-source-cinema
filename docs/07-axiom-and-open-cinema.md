@@ -72,6 +72,8 @@ Two steps are closed in my own chain today: the edit, in Final Cut Pro, and the 
 
 The camera is the other limit. Magic Lantern is free software, but it runs on Canon's hardware, next to Canon's firmware. The 5D Mark III came out in 2012. In 2026 the same body still records 14-bit RAW, because the firmware around it is free and people keep working on it.
 
+In all three cameras of the table the sensor itself is a proprietary chip: Canon's in the 5D Mark III, a Sony IMX in CineMate, the ams CMV12000 in the AXIOM. The open part is what surrounds it: boards, firmware, drivers and tools.
+
 ## Cameras for the coming films
 
 I have already shot a little of my next feature on the 5D Mark III, and at the moment I'm testing a [Blackmagic Pocket Cinema Camera 6K Pro](https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera) for it. Two other cameras are on my list: an iPhone 15 Pro Max for discreet and run-and-gun shooting, and a Canon EOS R6 Mark III as a hybrid narrative camera. I give no figures here; the manufacturers' pages have the current specifications. All three shoot a log or RAW format that can be brought into the same DaVinci Wide Gamut grade as the 5D Mark III RAW, with the CST sandwich described in [chapter 04](04-offline-online-conform-and-grading.md).
