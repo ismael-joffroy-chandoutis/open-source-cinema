@@ -43,6 +43,7 @@ Figures are linked to their source, or marked as my own estimate.
 
 | # | Chapter | What is in it |
 |---|---|---|
+| 00 | [The whole chain](docs/00-the-whole-chain.md) | Every step of a film, what I have done on it, and the repository or chapter where it is documented |
 | 01 | [Maalbeek: point clouds from RAW video long takes](docs/01-maalbeek-photogrammetry.md) | How the scans of Maalbeek were shot in RAW video and turned into point clouds |
 | 02 | [Magic Lantern on the 5D Mark III](docs/02-magic-lantern-5d-mark-iii.md) | Builds, sensor readout, modes and data rates, cards, the H.264 proxy, preview and HDMI, Dual ISO, the 7D and the EOS M |
 | 03 | [RAW post-processing](docs/03-raw-post-processing.md) | MLV App and the other tools to develop the RAW |
@@ -51,6 +52,9 @@ Figures are linked to their source, or marked as my own estimate.
 | 06 | [Outlook and test list](docs/06-outlook-and-test-list.md) | The state of Magic Lantern in November 2026 and the tests I still have to do |
 | 07 | [AXIOM and open cinema](docs/07-axiom-and-open-cinema.md) | The open hardware cinema camera and where it stands |
 | 08 | [Delivery and archiving](docs/08-delivery-and-archiving.md) | DCP, masters and open archive formats |
+| 09 | [On-set data](docs/09-on-set-data.md) | Copying and checking rushes, from India in 2017 to my backup protocol |
+| 10 | [Previs, 3D and generated images](docs/10-previs-3d-and-generated-images.md) | From Maalbeek to Blender, the tools I built, the benches I measured |
+| 11 | [The open chain: test list](docs/11-open-chain-test-list.md) | The open tools I want to try at each step, how I will test them, what I will measure |
 
 ![Proxy and conform](schemas/04-proxy-and-conform.svg)
 

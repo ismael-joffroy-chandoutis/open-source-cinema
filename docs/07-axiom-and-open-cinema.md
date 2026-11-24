@@ -53,7 +53,7 @@ Palmier Pro is often presented as open source. Only the releases up to 0.7.6 are
 
 ## The whole chain with open tools
 
-Can a film go from the sensor to the cinema screen with open tools only? In November 2026, almost. This is the chain, step by step, with where I stand on each tool.
+Can a film go from the sensor to the cinema screen with open tools only? In November 2026, almost. This is the chain, step by step, with where I stand on each tool. The full map, with every step of the chain and the repositories that document it, is in [00. The whole chain](00-the-whole-chain.md); the open tools I still have to try are in [11. The open chain: test list](11-open-chain-test-list.md).
 
 | Step | Open tool | Where I stand |
 |---|---|---|

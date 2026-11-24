@@ -1,6 +1,6 @@
 # 01. Maalbeek: point clouds from RAW video long takes
 
-[Back to the README](../README.md) · Next: [02. Magic Lantern on the 5D Mark III](02-magic-lantern-5d-mark-iii.md)
+[Back to the README](../README.md) · Previous: [00. The whole chain](00-the-whole-chain.md) · Next: [02. Magic Lantern on the 5D Mark III](02-magic-lantern-5d-mark-iii.md)
 
 ## The film
 
@@ -54,4 +54,4 @@ This part is not something I have done. It's what I would test if I scanned the 
 - **Gaussian splatting** in place of a point cloud, trained with [gsplat](https://github.com/nerfstudio-project/gsplat), [Brush](https://github.com/ArthurBrussee/brush) or [Postshot](https://www.jawset.com/shop/pricing). The Studio version of Postshot accepts DNG/RAW as input and trains in 16 or 32 bits, which fits RAW video frames exported as CinemaDNG.
 - **Metashape** is still developed: version 2.3.2 came out on 25 August 2026.
 
-[Back to the README](../README.md) · Next: [02. Magic Lantern on the 5D Mark III](02-magic-lantern-5d-mark-iii.md)
+[Back to the README](../README.md) · Previous: [00. The whole chain](00-the-whole-chain.md) · Next: [02. Magic Lantern on the 5D Mark III](02-magic-lantern-5d-mark-iii.md)

@@ -1,6 +1,6 @@
 # 08. Delivery and archiving
 
-[Back to the README](../README.md) · Previous: [07. AXIOM and open cinema](07-axiom-and-open-cinema.md)
+[Back to the README](../README.md) · Previous: [07. AXIOM and open cinema](07-axiom-and-open-cinema.md) · Next: [09. On-set data](09-on-set-data.md)
 
 ## India, 2017: what RAW video weighs on disk
 
@@ -47,4 +47,4 @@ For a film shot in ML RAW, the list of what I would keep, each with a checksum w
 
 Two copies on different drives, and one of them in another place, is the minimum. A checksum check after each copy is what tells you a copy is good; the copy finishing without an error doesn't.
 
-[Back to the README](../README.md) · Previous: [07. AXIOM and open cinema](07-axiom-and-open-cinema.md)
+[Back to the README](../README.md) · Previous: [07. AXIOM and open cinema](07-axiom-and-open-cinema.md) · Next: [09. On-set data](09-on-set-data.md)
