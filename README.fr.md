@@ -45,6 +45,7 @@ Les chapitres sont en anglais.
 
 | # | Chapitre | Ce qu'il contient |
 |---|---|---|
+| 00 | [La chaîne entière](docs/00-the-whole-chain.md) | Chaque étape d'un film, ce que j'y ai fait, et le dépôt ou le chapitre qui le documente |
 | 01 | [Maalbeek : des nuages de points à partir de plans-séquences en vidéo RAW](docs/01-maalbeek-photogrammetry.md) | Comment les scans de Maalbeek ont été tournés en vidéo RAW puis transformés en nuages de points |
 | 02 | [Magic Lantern sur le 5D Mark III](docs/02-magic-lantern-5d-mark-iii.md) | Builds, lecture du capteur, modes et débits, cartes, proxy H.264, aperçu et HDMI, Dual ISO, le 7D et l'EOS M |
 | 03 | [Post-traitement du RAW](docs/03-raw-post-processing.md) | MLV App et les autres outils pour développer le RAW |
@@ -53,6 +54,9 @@ Les chapitres sont en anglais.
 | 06 | [Perspectives et liste d'essais](docs/06-outlook-and-test-list.md) | L'état de Magic Lantern en novembre 2026 et les essais qu'il me reste à faire |
 | 07 | [AXIOM et le cinéma ouvert](docs/07-axiom-and-open-cinema.md) | La caméra de cinéma en matériel ouvert et où elle en est |
 | 08 | [Livraison et archivage](docs/08-delivery-and-archiving.md) | DCP, masters et formats d'archive ouverts |
+| 09 | [Les données du tournage](docs/09-on-set-data.md) | Copier et vérifier les rushes, de l'Inde en 2017 à mon protocole de sauvegarde |
+| 10 | [Prévisualisation, 3D et images générées](docs/10-previs-3d-and-generated-images.md) | De Maalbeek à Blender, les outils que j'ai construits, les bancs que j'ai mesurés |
+| 11 | [La chaîne libre : liste d'essais](docs/11-open-chain-test-list.md) | Les outils libres à essayer à chaque étape, le protocole et ce que je mesurerai |
 
 ![Proxy et conformation](schemas/04-proxy-and-conform.svg)
 
