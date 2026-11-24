@@ -19,7 +19,7 @@
 
 ## What this repository is
 
-I shot RAW video on a Canon 5D Mark III with Magic Lantern, a free firmware, from 2013: a feature documentary in India in 2017, the scans of Maalbeek in 2019, parts of Ondes Noires. Today a used body of this camera sells for 249 to 489 € ([MPB France](https://www.mpb.com/fr-fr/produit/canon-eos-5d-mark-iii), 98 bodies listed on 24 November 2026), and the firmware costs nothing.
+I shot RAW video on a Canon 5D Mark III with Magic Lantern, a free firmware, from 2013: a feature documentary in India in 2017, the scans of Maalbeek in 2019, parts of Ondes Noires. Today a used body of this camera sells for 249 to 489 € ([MPB France](https://www.mpb.com/fr-fr/produit/canon-eos-5d-mark-iii), about 100 bodies listed on 24 November 2026), and the firmware costs nothing.
 
 Here I look at how far the rest of a film can go the same way, from writing to the cinema copy and the archive. It follows the steps of a film in order. For each step it says what I have done, with which tool, what it costs, and what I still have to test. The camera, Magic Lantern on the 5D Mark III, is one of these steps.
 

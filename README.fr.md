@@ -19,7 +19,7 @@
 
 ## Ce qu'est ce dépôt
 
-J'ai tourné en vidéo RAW sur un Canon 5D Mark III avec Magic Lantern, un firmware libre, à partir de 2013 : un long métrage documentaire en Inde en 2017, les scans de Maalbeek en 2019, des parties d'Ondes Noires. Aujourd'hui, un boîtier d'occasion se vend entre 249 et 489 € ([MPB France](https://www.mpb.com/fr-fr/produit/canon-eos-5d-mark-iii), 98 boîtiers en vente le 24 novembre 2026), et le firmware ne coûte rien.
+J'ai tourné en vidéo RAW sur un Canon 5D Mark III avec Magic Lantern, un firmware libre, à partir de 2013 : un long métrage documentaire en Inde en 2017, les scans de Maalbeek en 2019, des parties d'Ondes Noires. Aujourd'hui, un boîtier d'occasion se vend entre 249 et 489 € ([MPB France](https://www.mpb.com/fr-fr/produit/canon-eos-5d-mark-iii), une centaine de boîtiers en vente le 24 novembre 2026), et le firmware ne coûte rien.
 
 Je cherche ici jusqu'où le reste du film peut aller de la même façon, de l'écriture à la copie de projection et à l'archive. Il suit les étapes d'un film dans l'ordre. Pour chacune, il dit ce que j'ai fait, avec quel outil, ce que ça coûte, et ce qu'il me reste à essayer. La caméra, Magic Lantern sur le 5D Mark III, est l'une de ces étapes.
 
