@@ -22,3 +22,7 @@ license does not restrict those uses.
 
 For commercial use, translation, adaptation, or any use beyond the terms above:
 please contact the author.
+
+One exception: `Agent-Driven-Editing-2026.md` has been published since February
+2026 under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), as
+stated at the end of that document. That license applies to that document only.
