@@ -38,6 +38,12 @@ Before the 5D Mark III, I tried an Insta360 Pro 2, a professional 8K 360 camera 
 
 On the 5D Mark III, I also tried the 3.5K mode, higher frame rates and the crop modes. I didn't keep them for the film. The modes are described in [chapter 02](02-magic-lantern-5d-mark-iii.md).
 
+## The 8K render with EbSynth
+
+For the final render of Maalbeek in 8K, in 2020, I used EbSynth, a style transfer tool made by Secret Weapons. In June 2020 a frame took about five minutes and the second graphics card wasn't used, so I wrote to its developers and asked for a beta. Ondřej Jamriška sent me a new beta, announced as three times faster at very high resolutions. I tested it on the film and sent back crash reports in 8K, test renders and two feature requests: TIFF import, because Resolve doesn't export PNG, and a time remaining display. The version they gave me was used for the final render, and the EbSynth logo is in the credits of the cinema version.
+
+The research code behind EbSynth is published on GitHub ([jamriska/ebsynth](https://github.com/jamriska/ebsynth)).
+
 ## My usual RAW cleanup
 
 The corrections I use on Magic Lantern footage in general: vertical stripe correction in MLV App and the other tools of the period, dark frame subtraction (mostly on the 7D), and [Neat Video](https://www.neatvideo.com/) for denoising. Neat Video is commercial software. I think it's excellent and it's part of my chain. The full RAW processing is in [03-raw-post-processing.md](03-raw-post-processing.md).

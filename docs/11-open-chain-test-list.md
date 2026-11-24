@@ -4,7 +4,7 @@
 
 I want my next films to go as far as I can toward open tools only, from the first page to the cinema copy. Today four steps of my own chain are closed: the edit, the grade, the mix, and the photogrammetry and real-time render of Maalbeek (see [00. The whole chain](00-the-whole-chain.md)). This page lists the open tools I want to try for each step, how I will test them, and what I will measure.
 
-None of these tests has been done yet. So every tool here is in the group **Reliable, on my test list** (reported to work by others or by its documentation) or **Not ready**. When a test is done, the tool moves to **What I have shot with**, with a link to the result.
+None of these tests has been done yet. So almost every tool here is in the group **Reliable, on my test list** (reported to work by others or by its documentation) or **Not ready**. DCP-o-matic is the exception: I already use it, and the test is about the rest of the chain. When a test is done, the tool moves to **What I have shot with**, with a link to the result.
 
 Versions, licences and dates were read at the source on 24 November 2026. They change quickly: check the link before you rely on one.
 
@@ -107,9 +107,9 @@ Ardour is the open multitrack station I want to test against Pro Tools, where th
 
 | Tool | Licence | Version | Group |
 |---|---|---|---|
-| [DCP-o-matic](https://dcpomatic.com/download) | GPL-2.0 | 2.18.52, 21 November 2026 | Reliable, on my test list |
+| [DCP-o-matic](https://dcpomatic.com/download) | GPL-2.0 | 2.18.52, 21 November 2026 | What I have shot with |
 
-DCP-o-matic is in [chapter 08](08-delivery-and-archiving.md). It makes SMPTE and Interop DCPs and KDMs, and checks the package. I haven't found that it creates HDR or Dolby Vision DCPs. Its author doesn't recommend its player for commercial screenings without tests.
+DCP-o-matic is in [chapter 08](08-delivery-and-archiving.md): I have used it since 2017. What I haven't done yet is a DCP from a master that went through open tools only. It makes SMPTE and Interop DCPs and KDMs, and checks the package. I haven't found that it creates HDR or Dolby Vision DCPs. Its author doesn't recommend its player for commercial screenings without tests.
 
 **Test:** a DCP of a short film from a master that went through the open chain only. **Measure:** the two validators, then a screening in a cinema.
 

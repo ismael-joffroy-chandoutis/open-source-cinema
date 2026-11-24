@@ -18,6 +18,12 @@ The usual way with it: export a master from Resolve (a TIFF or DPX sequence with
 
 DCP-o-matic encodes JPEG 2000 on the CPU, and it can share the work with other machines on the network. Since October 2023 it can also use Grok, a GPU encoder written by Aaron Boxer ([announcement on the DCP-o-matic forum, 18 October 2023](https://dcpomatic.com/forum/viewtopic.php?p=11318)). The Grok core is open source (AGPL v3) and encodes on the CPU. The GPU encoder is a paid, closed plugin for Linux and Nvidia cards ([Grok](https://grokcompression.com/)). So DCP-o-matic is open, and its fastest encoder is closed.
 
+## My history with DCP-o-matic
+
+**Group: What I have shot with.** In May 2017 I tested DCP-o-matic for the Côté Court festival, to create DCPs and to use it as a player. In June 2021 I made a test DCP of Maalbeek with it, and it's still the tool I use for my DCPs.
+
+In spring 2020, while I was working with Fastvideo on Fast CinemaDNG, I wrote for its founder, Fyodor Serzhenko, the specification of a GPU JPEG 2000 encoder for DCP: 2K and 4K, Interop and SMPTE, 24 fps, 250 Mbit/s, and the conversion to XYZ. He asked me to present his encoder to Carl Hetherington, the author of DCP-o-matic, and in June 2020 he wrote that he had sent his SDK to Carl. Branches named `fastvideo` and `fastvideo2` exist in DCP-o-matic's own git repository; I haven't read their commits. The GPU encoder DCP-o-matic released in 2023 is Grok, described above.
+
 ## Open formats for the archive
 
 An archive format has to be readable without the company that made it. These are the open ones that matter for this chain.

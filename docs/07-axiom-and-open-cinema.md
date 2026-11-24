@@ -65,7 +65,7 @@ Can a film go from the sensor to the cinema screen with open tools only? In Nove
 | Editing | Kdenlive, Shotcut, Blender | Reliable, on my test list |
 | Timeline exchange | [OpenTimelineIO](https://github.com/AcademySoftwareFoundation/OpenTimelineIO) 0.18.1 (Apache-2.0) | Reliable, on my test list |
 | Colour management | [OpenColorIO](https://github.com/AcademySoftwareFoundation/OpenColorIO) 2.6.0 (BSD-3-Clause) | Reliable, on my test list |
-| Cinema copy | DCP-o-matic (see [chapter 08](08-delivery-and-archiving.md)) | Reliable, on my test list |
+| Cinema copy | DCP-o-matic (see [chapter 08](08-delivery-and-archiving.md)) | What I have shot with |
 | Archive | CinemaDNG, FFV1, OpenEXR (see [chapter 08](08-delivery-and-archiving.md)) | CinemaDNG: what I have shot with. FFV1 and OpenEXR: on my test list |
 
 Two steps are closed in my own chain today: the edit, in Final Cut Pro, and the grade, in DaVinci Resolve. The grade is the step where I have no open tool to put in the table.
