@@ -57,6 +57,10 @@ Les chapitres sont en anglais.
 | 09 | [Les données du tournage](docs/09-on-set-data.md) | Copier et vérifier les rushes, de l'Inde en 2017 à mon protocole de sauvegarde |
 | 10 | [Prévisualisation, 3D et images générées](docs/10-previs-3d-and-generated-images.md) | De Maalbeek à Blender, les outils que j'ai construits, les bancs que j'ai mesurés |
 | 11 | [La chaîne libre : liste d'essais](docs/11-open-chain-test-list.md) | Les outils libres à essayer à chaque étape, le protocole et ce que je mesurerai |
+| 12 | [Son et mixage](docs/12-sound-and-mixing.md) | Ce que j'ai fait du son, Ardour, et l'essai de mixage à faire |
+| 13 | [Formats](docs/13-formats.md) | Les formats ouverts de la chaîne, le MLV dans Resolve et Final Cut Pro, les formats fermés et comment les logiciels libres les lisent |
+| 14 | [ComfyUI, Wan2GP et Pinokio](docs/14-comfyui-wan2gp-pinokio.md) | Ce que j'ai installé, construit et mesuré en 2026 |
+| 15 | [Conserver les films et les œuvres](docs/15-conserving-artworks.md) | self-hosted-film-lab, et les outils libres de la conservation des œuvres à médias |
 
 ![Proxy et conformation](schemas/04-proxy-and-conform.svg)
 

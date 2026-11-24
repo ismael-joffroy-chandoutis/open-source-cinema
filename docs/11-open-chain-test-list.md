@@ -1,6 +1,6 @@
 # 11. The open chain: test list
 
-[Back to the README](../README.md) · Previous: [10. Previs, 3D and generated images](10-previs-3d-and-generated-images.md)
+[Back to the README](../README.md) · Previous: [10. Previs, 3D and generated images](10-previs-3d-and-generated-images.md) · Next: [12. Sound and mixing](12-sound-and-mixing.md)
 
 I want my next films to go as far as I can toward open tools only, from the first page to the cinema copy. Today four steps of my own chain are closed: the edit, the grade, the mix, and the photogrammetry and real-time render of Maalbeek (see [00. The whole chain](00-the-whole-chain.md)). This page lists the open tools I want to try for each step, how I will test them, and what I will measure.
 
@@ -79,11 +79,15 @@ vkdt reads MLV files natively and processes them on the GPU (see [chapter 03](03
 | [Meshroom](https://github.com/alicevision/Meshroom) | MPL-2.0 | 2025.1.0, 19 August 2025 | Reliable, on my test list |
 | [OpenSplat](https://github.com/pierotofy/OpenSplat) | AGPL-3.0 | 1.2.2, 16 September 2026 | Reliable, on my test list |
 | Blender, Gaussian splat import | GNU GPL | 5.3.0 | Reliable, on my test list |
-| [Godot](https://github.com/godotengine/godot) | MIT | 4.7.2, 18 August 2026 | Reliable, on my test list |
+| [KIRI Engine 3DGS Render](https://github.com/Kiri-Innovation/3dgs-render-blender-addon), Blender add-on | GPL-2.0 | 5.1.0, for Blender 5.1 and 5.2 (5.3 announced) | Reliable, on my test list |
+| [splat-transform](https://github.com/playcanvas/splat-transform) | MIT | | Reliable, on my test list |
+| [Godot](https://github.com/godotengine/godot) with [GDGS](https://github.com/ReconWorldLab/godot-gaussian-splatting) | MIT | Godot 4.7.2, 18 August 2026; GDGS 3.3.0, 30 July 2026 | Reliable, on my test list |
 
-Postshot, which I listed in [chapter 01](01-maalbeek-photogrammetry.md), is proprietary. Blender 5.3 imports splats but doesn't export them, so there is no round trip between Blender and a real-time engine for splats yet.
+Postshot, which I listed in [chapter 01](01-maalbeek-photogrammetry.md), is proprietary.
 
-**Test:** the Maalbeek method again on a new place: a RAW video long take, frames exported as CinemaDNG, camera poses in COLMAP, then a point cloud in Meshroom and splats with OpenSplat, rendered in Blender and in Godot. **Measure:** the same as for Maalbeek, how faithful the result is, on reflective surfaces too, next to what Metashape gave.
+The official release notes of Blender 5.3 list Gaussian splat import from glTF and USD. Blender itself doesn't export splats; the KIRI Engine add-on exports edited splats and animated PLY sequences. splat-transform converts between splat formats (PLY, SPZ, SOG, GLB and others). In Godot, GDGS imports PLY, .splat, .sog, glTF with the `KHR_gaussian_splatting` extension, and USDZ. Each step exists on its own; I found no page that documents the whole way from Blender to Godot. That's a test to do.
+
+**Test:** the Maalbeek method again on a new place: a RAW video long take, frames exported as CinemaDNG, camera poses in COLMAP, then a point cloud in Meshroom and splats with OpenSplat, rendered in Blender, then exported with the KIRI Engine add-on, converted with splat-transform and opened in Godot with GDGS. **Measure:** the same as for Maalbeek, how faithful the result is, on reflective surfaces too, next to what Metashape gave.
 
 ## Sound
 
@@ -137,4 +141,4 @@ RAWcooked turns DPX sequences and WAV files into FFV1 in Matroska, and can give 
 
 The image and video generation models. Their licences are written by each publisher, often with limits on who can use them and for what, and the models change every month. My benches and the licences as the publishers write them are in [ai-upscaler-benchmark](https://github.com/ismael-joffroy-chandoutis/ai-upscaler-benchmark), [vlm-shot-labeling-2026](https://github.com/ismael-joffroy-chandoutis/vlm-shot-labeling-2026) and [modeles-ia-cinema-2026](https://github.com/ismael-joffroy-chandoutis/modeles-ia-cinema-2026).
 
-[Back to the README](../README.md) · Previous: [10. Previs, 3D and generated images](10-previs-3d-and-generated-images.md)
+[Back to the README](../README.md) · Previous: [10. Previs, 3D and generated images](10-previs-3d-and-generated-images.md) · Next: [12. Sound and mixing](12-sound-and-mixing.md)

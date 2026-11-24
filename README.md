@@ -55,6 +55,10 @@ Figures are linked to their source, or marked as my own estimate.
 | 09 | [On-set data](docs/09-on-set-data.md) | Copying and checking rushes, from India in 2017 to my backup protocol |
 | 10 | [Previs, 3D and generated images](docs/10-previs-3d-and-generated-images.md) | From Maalbeek to Blender, the tools I built, the benches I measured |
 | 11 | [The open chain: test list](docs/11-open-chain-test-list.md) | The open tools I want to try at each step, how I will test them, what I will measure |
+| 12 | [Sound and mixing](docs/12-sound-and-mixing.md) | What I have done with sound, Ardour, and the mix test I will do |
+| 13 | [Formats](docs/13-formats.md) | The open formats of the chain, MLV in Resolve and Final Cut Pro, closed camera formats and how open software reads them |
+| 14 | [ComfyUI, Wan2GP and Pinokio](docs/14-comfyui-wan2gp-pinokio.md) | What I installed, built and measured in 2026 |
+| 15 | [Conserving films and artworks](docs/15-conserving-artworks.md) | self-hosted-film-lab, and the open tools of media art conservation |
 
 ![Proxy and conform](schemas/04-proxy-and-conform.svg)
 
