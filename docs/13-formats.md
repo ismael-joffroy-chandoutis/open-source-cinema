@@ -33,9 +33,12 @@ I edit in Final Cut Pro and grade in Resolve, and neither reads MLV. Today I con
 
 | Tool | Licence | Version | What its README says |
 |---|---|---|---|
-| [CineFS](https://github.com/ozcancelik/CineFS) | Apache-2.0 | 0.2.0, 22 November 2026 | macOS and Windows; a local NFS server, no macFUSE; an early release |
-| [MLV Drive](https://github.com/bouncyball-git/mlvdrive) | GPL-3.0 | 0.4.3, 6 November 2026 | Used day to day with Resolve on Windows; not yet tried with Resolve on a Mac |
-| mlv2Resolve | GPL-3.0 | 0.2.5 | Apple Silicon, tested with Resolve Studio 21.1.1; the app is not notarised |
+| [CineFS](https://github.com/ozcancelik/CineFS) | Apache-2.0 | 0.2.0, 22 November 2026 | macOS through the NFS client built into macOS, and Windows through WinFsp; an early release |
+| [MLV Drive](https://github.com/bouncyball-git/mlvdrive) (bouncyball) | GPL-3.0 | 0.9.1, 22 November 2026 | Windows through WinFsp, macOS 26 or later through FSKit; a work in progress |
+| [MLV Drive](https://github.com/charlie-schomp/MLVDrive) (charlie-schomp) | GPL-2.0 | 0.4.3, 6 November 2026 | Used day to day with Resolve on Windows |
+| [mlv2Resolve](https://github.com/julienbeka/mlv2Resolve) | GPL-3.0 | 0.2.15, 1 November 2026 | Apple Silicon, needs FUSE-T; tested with Resolve Studio 21.1.1 |
+
+Two unrelated projects share the name MLV Drive. The details of all four are in [chapter 03](03-raw-post-processing.md#mlvfs-and-the-new-virtual-drives).
 
 Lossless MLV already stores its frames in LJ92, the same compression as compressed CinemaDNG. CineFS wraps these frames in DNG files without decoding them, so the virtual drive doesn't have to decompress anything. MLVFS, the tool I used in 2017, did all its processing on the CPU at each frame, which is why it was slow.
 
