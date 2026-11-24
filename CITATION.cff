@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use or cite this work, please credit it as below."
 title: "open-source-cinema"
-abstract: "RAW video filmmaking with hacked cameras and open hardware. Magic Lantern 5D Mark III, AXIOM, agent-driven post-production."
+abstract: "The whole chain of a film with open tools, from Magic Lantern RAW on the 5D Mark III to the DCP: what I have shot with, and what I test."
 type: dataset
 authors:
   - given-names: "Ismaël"
